@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import AboutScreen from "../components/AboutScreen";
+import { motion } from "framer-motion/dist/framer-motion";
 
 const About = () => {
   return (
-    <div>
-    </div>
+    <motion.div
+      initial = {{opacity: 0}}
+      animate = {{opacity: 1}}
+      exit = {{opacity: 0}}>
+        <AboutScreen/>
+    </motion.div>
   )
 }
 

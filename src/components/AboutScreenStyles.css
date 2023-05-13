@@ -1,0 +1,278 @@
+.heading {
+    color: black;
+    text-align: center;
+    padding: 0 0 0 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1040px;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+}
+
+.solo_container
+{
+    display: flex;
+    width: 726px;
+    margin: -10px 0 10px -38px;
+}
+
+.container2
+{
+    width: 100%;
+    display: flex;
+    margin: 0rem 0rem 1rem 0;
+}
+
+.container2_1
+{
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin: 0rem 0rem 1rem 0;
+}
+
+.container3
+{
+    max-width: 1000px;
+    display: flex;
+    margin: 0.8rem 7.1rem 0rem 8.8rem;
+}
+
+.container2 .container2a, .container2b
+{
+    flex: 1
+}
+
+.container3 .container3a, .container3b
+{
+    width: 400px;
+}
+
+.img_container {
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 250px;
+    flex: 1;
+}
+  
+.img_container img 
+{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 30px;
+    margin: -10px 0 30px 140px;
+}
+
+.card_text
+{
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.objective_card
+{
+    padding: 12px 32px; 
+    font-size: 1rem;
+    background: #00B4DB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #232526;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    color: #fff;
+    margin: 6px 25px 20px 195px;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 210px;
+    flex: 1;
+}
+
+.edu_card
+{
+    padding: 12px 32px; 
+    width: 800px;
+    font-size: 1rem;
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-radial-gradient(to left, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: radial-gradient(#414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 30px;
+    color: #fff;
+    flex: 1;
+}
+
+.courses_card
+{
+    padding: 12px 32px; 
+    font-size: 1rem;
+    background-color: #fbb034;
+    background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+    color: #232526;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    flex: 1;
+    text-align: left;
+    color: black;
+    width: 343px;
+    margin: 0 1rem 0 -0.8rem;
+}
+
+.skills_card
+{
+    padding: 12px 32px; 
+    font-size: 1rem;
+    background-color: #fbb034;
+    background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+    color: #232526;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    flex: 1;
+    text-align: left;
+    color: black;
+    width: 355px;
+    margin: 0 1.5rem 0 0.3rem;
+}
+
+.link_container
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 530px;
+    margin: -10px 0 -4px 200px;
+}
+
+.link_container .linked_icon
+{
+    flex: 1;
+}
+
+@media screen and (max-width: 1040px)
+{
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img_container img 
+    {
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 30px;
+    }
+
+    .container2 
+    {
+        width: 83%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        margin: 0 0 0 0;
+    }
+
+    .container3 
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        margin: 0 0 0 0;
+    }
+
+    .edu_card
+    {
+        padding: 12px 32px; 
+        width: 83%;
+        font-size: 1rem;
+        background: #232526;  /* fallback for old browsers */
+        background: -webkit-radial-gradient(to left, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+        background: radial-gradient(#414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        border-radius: 30px;
+        color: #fff;
+        flex: 1;
+    }
+
+    .courses_card
+    {
+        padding: 12px 32px; 
+        width: 83%;
+        font-size: 1rem;
+        background-color: #fbb034;
+        background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+        color: #232526;
+        border: 1px solid #fff;
+        border-radius: 30px;
+        flex: 1;
+        text-align: left;
+        color: black;
+    }
+
+    .img_container {
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+    }
+      
+    .img_container img 
+    {
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 30px;
+    }
+
+    .container2 .container2a, .container2b
+    {
+        flex: 1
+    }
+
+    .container3 .container3a, .container3b
+    {
+        flex: 1
+    }
+
+    .objective_card
+    {
+        padding: 12px 32px; 
+        font-size: 1rem;
+        background: #00B4DB;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color: #232526;
+        border: 1px solid #fff;
+        border-radius: 30px;
+        color: #fff;
+        justify-content: center;
+        width: auto;
+        height: auto;
+        align-items: center;
+    }
+
+    .link_container
+    {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 50%;
+    }
+      
+    .solo_container
+    {
+        width: 83%;
+    }
+    
+}

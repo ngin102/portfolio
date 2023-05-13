@@ -3,6 +3,7 @@ import "./ProjectCardStyles.css"
 import React from 'react';
 import { NavLink } from "react-router-dom";
 
+
 const ProjectCard = (props) => {
   return (
     <div className = "project_card">

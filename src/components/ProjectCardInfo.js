@@ -1,5 +1,3 @@
-import GuessItDemo from "../assets/guess_it_demo.mp4";
-
 const ProjectCardInfo =
 [
     {
@@ -10,7 +8,7 @@ const ProjectCardInfo =
     },
 
     {
-        imgsrc: GuessItDemo,
+        imgsrc: " ",
         title: "Guess It",
         desc: "I collaborated with a team to design, develop, and deploy an interactive word-guessing game that runs on a web server and is accessed using a web browser.",
         source_code: "https://github.com/ngin102/Guess-It"

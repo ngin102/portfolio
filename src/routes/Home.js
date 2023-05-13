@@ -1,11 +1,15 @@
-import React from 'react'
+import React from "react";
 import HomeScreen from "../components/HomeScreen";
+import { motion } from "framer-motion/dist/framer-motion";
 
 const Home = () => {
   return (
-    <div>
+    <motion.div
+      initial = {{opacity: 0}}
+      animate = {{opacity: 1}}
+      exit = {{opacity: 0}}>
         <HomeScreen/>
-    </div>);
+    </motion.div>);
 }
 
 export default Home
