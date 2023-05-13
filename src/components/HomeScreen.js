@@ -34,7 +34,7 @@ const HomeScreen = () => {
               initial = {{opacity: 0}}
               animate = {{opacity: 1}}
               transition = {{delay: 1}}>
-              <img className = "home_img" src = {HomeImg} alt = "Home screen image"/>
+              <img className = "home_image" src = {HomeImg} alt = "Home screen image"/>
             </motion.div>
         </div>
 

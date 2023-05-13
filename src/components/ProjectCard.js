@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 
 
 const ProjectCard = (props) => {
-  const { imgsrc, title, desc, source_code } = props;
+  const { imgsrc, title, desc, task1, task2, task3, source_code} = props;
   const isHttps = typeof imgsrc === 'string' && imgsrc.startsWith('https:');
 
   if (isHttps) {
@@ -22,8 +22,17 @@ const ProjectCard = (props) => {
         <div className="project_text">
           <p>{desc}</p>
         </div>
+        <div className="project_text">
+          <p>{task1}</p>
+        </div>
+        <div className="project_text">
+          <p>{task2}</p>
+        </div>
+        <div className="project_text">
+          <p>{task3}</p>
+        </div>
         <div className="project_btn">
-          <NavLink to={source_code} className="btn">Source Code</NavLink>
+          <NavLink to={source_code} className="btn" target="_blank" rel="noopener">Source Code</NavLink>
         </div>
       </div>
     );
@@ -31,20 +40,27 @@ const ProjectCard = (props) => {
     return (
       <div className="project_card">
         <div className="video-container">
-          <img src = {imgsrc} alt="Video Thumbnail" />
+          <img src = {imgsrc} alt="Image"/>
         </div>
         <h2 className="project_title">{title}</h2>
         <div className="project_text">
           <p>{desc}</p>
         </div>
+        <div className="project_text">
+          <p>{task1}</p>
+        </div>
+        <div className="project_text">
+          <p>{task2}</p>
+        </div>
+        <div className="project_text">
+          <p>{task3}</p>
+        </div>
         <div className="project_btn">
-          <NavLink to={source_code} className="btn">Source Code</NavLink>
+          <NavLink to={source_code} className="btn" target="_blank" rel="noopener">Source Code</NavLink>
         </div>
       </div>
     );
   }
 };
-
-
 
 export default ProjectCard

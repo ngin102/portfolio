@@ -6,12 +6,17 @@ import { motion } from "framer-motion/dist/framer-motion";
 const ProjectGrid = () => {
   return (
     <div>
-        <h1 className="heading">PROJECTS</h1>
+        <motion.div 
+          initial = {{opacity: 0}}
+          animate = {{opacity: 1}}
+          transition={{delay: 0.6}}>
+          <h1 className="heading">PROJECTS</h1>
+        </motion.div>
         <motion.div 
           className="project_container"
           initial = {{opacity: 0}}
           animate = {{opacity: 1}}
-          transition={{delay: 0.4}}>
+          transition={{delay: 1}}>
           {ProjectCardInfo.map((val, ind) => {
             return (
               <ProjectCard
@@ -19,6 +24,9 @@ const ProjectGrid = () => {
                 imgsrc = {val.imgsrc}
                 title = {val.title}
                 desc = {val.desc}
+                task1 = {val.task1}
+                task2 = {val.task2}
+                task3 = {val.task3}
                 source_code = {val.source_code}
               />
             );

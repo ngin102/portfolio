@@ -4,8 +4,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
     height: 100%;
-    position: relative; /* Add position: relative */
+    position: relative;
 }
   
 .main_screen .info 
@@ -20,16 +21,7 @@
 .mask
 {
     width: 100%;
-    height: 100vh;
-}
-
-.home_img
-{
-    width: 100%;
     height: 100%;
-    background-size: cover;
-    background-position: center;
-    object-fit: cover;
 }
 
 .mask::after
