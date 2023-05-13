@@ -88,9 +88,14 @@
     gap: 68px;
 }
 
-.contact_container  .contact_icon 
+.contact_container .contact_icon 
 {
     margin: 10px;
+}
+
+.contact_container .contact_icon:hover
+{
+    transform: scale(1.08);
 }
 
 .content {

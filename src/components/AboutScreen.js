@@ -25,10 +25,19 @@ const AboutScreen = () => {
                     
                     <div className = "container2b">
                         <div className = "link_container">
-                            <div className = "linked_icon"> <AiOutlineMail size = {40} style = {{color: "black"}}/> </div> 
-                            <div className = "linked_icon"> <AiFillGithub size = {40} style = {{color: "black"}}/>  </div>
-                            <div className = "linked_icon"> <AiFillLinkedin size = {40} style = {{color: "black"}}/> </div> 
-                            <div className = "linked_icon"> <button>Resumé</button> </div> 
+                            <a href = "mailto:recipient@example.com" target="_blank" rel="noopener">
+                                <div className = "linked_icon"> <AiOutlineMail size = {40} style = {{color: "black"}}/> </div> 
+                            </a>
+
+                            <a href = "https://github.com/ngin102" target="_blank" rel="noopener">
+                                <div className = "linked_icon"> <AiFillGithub size = {40} style = {{color: "black"}}/>  </div>
+                            </a>
+
+                            <a href = "https://www.linkedin.com/in/nicholas-gin-6ba415275/" target="_blank" rel="noopener">
+                                <div className = "linked_icon"> <AiFillLinkedin size = {40} style = {{color: "black"}}/> </div> 
+                            </a>
+                            
+                            <div className = "linked_btn"> <button className = "btn" onClick = {() => window.open("https://drive.google.com/file/d/1TkPzo_OPmYZCo8Qv4htJlSir_1279Fcx/view?usp=sharing", "_blank")}>Resumé</button> </div> 
                         </div>
 
                         <div className="objective_card">
@@ -41,18 +50,27 @@ const AboutScreen = () => {
 
                 <div className = "expandable">
                     <div className="img_container">
-                            <img
-                            src="https://media.licdn.com/dms/image/D5603AQFES3iHLD55NA/profile-displayphoto-shrink_800_800/0/1683231829400?e=1689206400&v=beta&t=b1ZMe38eEQayE5XFmOZb_S9yDJgKy59nZhCtkWcXBwU"
-                            alt="Profile picture"
-                            />
-                        </div>
+                        <img
+                        src="https://media.licdn.com/dms/image/D5603AQFES3iHLD55NA/profile-displayphoto-shrink_800_800/0/1683231829400?e=1689206400&v=beta&t=b1ZMe38eEQayE5XFmOZb_S9yDJgKy59nZhCtkWcXBwU"
+                        alt="Profile picture"
+                        />
+                    </div>
                         
                     <div className = "solo_container">
                         <div className = "link_container">
-                            <div className = "linked_icon"> <AiOutlineMail size = {40} style = {{color: "black"}}/> </div> 
-                            <div className = "linked_icon"> <AiFillGithub size = {40} style = {{color: "black"}}/>  </div>
-                            <div className = "linked_icon"> <AiFillLinkedin size = {40} style = {{color: "black"}}/> </div> 
-                            <div className = "linked_icon"> <button>Resumé</button> </div> 
+                            <a href = "mailto:recipient@example.com" target="_blank" rel="noopener">
+                                <div className = "linked_icon"> <AiOutlineMail size = {40} style = {{color: "black"}}/> </div> 
+                            </a>
+
+                            <a href = "https://github.com/ngin102" target="_blank" rel="noopener">
+                                <div className = "linked_icon"> <AiFillGithub size = {40} style = {{color: "black"}}/>  </div>
+                            </a>
+
+                            <a href = "https://www.linkedin.com/in/nicholas-gin-6ba415275/" target="_blank" rel="noopener">
+                                <div className = "linked_icon"> <AiFillLinkedin size = {40} style = {{color: "black"}}/> </div> 
+                            </a>
+                            
+                            <div className = "linked_btn"> <button className = "btn" onClick = {() => window.open("https://drive.google.com/file/d/1TkPzo_OPmYZCo8Qv4htJlSir_1279Fcx/view?usp=sharing", "_blank")}>Resumé</button> </div> 
                         </div>
                     </div>
                     

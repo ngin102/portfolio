@@ -156,14 +156,53 @@
     justify-content: center;
     align-items: center;
     display: flex;
-    width: 452px;
-    margin: -10px 0 -4px 200px;
+    width: 394px;
+    gap: 50px;
+    margin: -25px 0 -13px 200px;
 }
 
 .link_container .linked_icon
 {
     flex: 1;
+    cursor: pointer;
 }
+
+.link_container .linked_icon:hover
+{
+    transform: scale(1.08);
+}
+
+.link_container .linked_btn
+{
+    flex: 1;
+    cursor: pointer;
+}
+
+.btn
+{
+    width: 100%;
+    text-align: center;
+    padding: 10px 10px; 
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-color: #fbb034;
+    background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+    border-radius: 25px;
+    color: #232526;
+    border: 1px solid #fff;
+    font-weight: 600; 
+    cursor: pointer;
+}
+
+.btn:hover
+{
+    background-color: #fbb034;
+    background-image: linear-gradient(315deg, #ffdd00 74%, #fbb034 0%,);
+    border-radius: 25px;
+    color: #fff;
+    transition: 0.3s;
+}
+
 
 .expandable
 {
@@ -181,7 +220,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 250;
+        width: 450px;
         height: 270px;
         margin: 0 auto;
     }
@@ -230,7 +269,7 @@
         border-radius: 30px;
         color: #fff;
         flex: 1;
-        margin: 0 auto;
+        margin: 0 auto 15px auto;
     }
 
     .objective_card
@@ -240,6 +279,7 @@
         height: auto;
         align-items: center;
         margin: 0 auto;
+        margin-bottom: 15px;
     }
 
     .courses_card
@@ -297,5 +337,6 @@
         padding: 12px 32px; 
         width: auto;
         margin: 0 auto;
+        margin-bottom: 15px;
     }
 }
