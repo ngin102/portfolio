@@ -1,4 +1,5 @@
 import PortfolioPic from "../assets/portfolio_pic.png"
+import ServiceNovigrad from "../assets/service_novigrad.png"
 
 const ProjectCardInfo =
 [
@@ -17,7 +18,7 @@ const ProjectCardInfo =
     },
 
     {
-        imgsrc: " ",
+        imgsrc: ServiceNovigrad,
         title: "Service Novigrad",
         desc: "I worked on a team to design a mobile Android application that enables users to access and track various provincial services, similar to ServiceOntario.",
         source_code: "https://github.com/ngin102/service-novigrad"
