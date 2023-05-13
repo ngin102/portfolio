@@ -16,13 +16,21 @@
   
 .project_card
 {
-    background: #1a1919;
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-radial-gradient(to left, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: radial-gradient(#414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 1.2rem 1rem;
     grid-column: span 1;
+    border-radius: 30px;
 }
 
 .project_card img
 {
+    width: 100%;
+}
+
+.project_card video {
+    height: auto;
     width: 100%;
 }
 
@@ -32,8 +40,9 @@
     padding: 1rem 0;
 }
 
-.project_desc
+.project_text
 {
+    color: white;
     padding-bottom: 1rem;
     font-size: 1.1rem;
     text-align: justify;

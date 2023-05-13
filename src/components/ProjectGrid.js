@@ -11,11 +11,11 @@ const ProjectGrid = () => {
           {ProjectCardInfo.map((val, ind) => {
             return (
               <ProjectCard
-                key={ind}
-                imgsrc={val.imgsrc}
-                title={val.title}
-                text={val.text}
-                source_code={val.source_code}
+                key = {ind}
+                imgsrc = {val.imgsrc}
+                title = {val.title}
+                desc = {val.desc}
+                source_code = {val.source_code}
               />
             );
           })}
