@@ -5,18 +5,46 @@ import { NavLink } from "react-router-dom";
 
 
 const ProjectCard = (props) => {
-  return (
-    <div className = "project_card">
-        <video controls>
-          <source src = {props.imgsrc} type = "video/mp4"/>
-        </video>
-        <h2 className = "project_title"> {props.title}</h2>
-        <div className = "project_text"> <p> {props.desc} </p></div>
-        <div className = "project_btn">
-            <NavLink to = {props.source_code} className = "btn">Source Code</NavLink>
+  const { imgsrc, title, desc, source_code } = props;
+  const isHttps = typeof imgsrc === 'string' && imgsrc.startsWith('https:');
+
+  if (isHttps) {
+    return (
+      <div className="project_card">
+        <div className="video_container">
+          <iframe
+            src={imgsrc}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
         </div>
-    </div>
-  )
-}
+        <h2 className="project_title">{title}</h2>
+        <div className="project_text">
+          <p>{desc}</p>
+        </div>
+        <div className="project_btn">
+          <NavLink to={source_code} className="btn">Source Code</NavLink>
+        </div>
+      </div>
+    );
+  } else {
+    return (
+      <div className="project_card">
+        <div className="video-container">
+          <img src = {imgsrc} alt="Video Thumbnail" />
+        </div>
+        <h2 className="project_title">{title}</h2>
+        <div className="project_text">
+          <p>{desc}</p>
+        </div>
+        <div className="project_btn">
+          <NavLink to={source_code} className="btn">Source Code</NavLink>
+        </div>
+      </div>
+    );
+  }
+};
+
+
 
 export default ProjectCard

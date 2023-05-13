@@ -123,8 +123,8 @@
 {
     padding: 12px 32px; 
     font-size: 1rem;
-    background-color: #fbb034;
-    background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+    background-color: #b8c6db;
+    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
     color: #232526;
     border: 3px solid #fff;
     border-radius: 30px;
@@ -247,8 +247,8 @@
         padding: 12px 32px; 
         width: 83%;
         font-size: 1rem;
-        background-color: #fbb034;
-        background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+        background-color: #b8c6db;
+        background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
         color: #232526;
         border: 1px solid #fff;
         border-radius: 30px;

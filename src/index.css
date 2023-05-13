@@ -24,8 +24,8 @@ ul
   font-size: 1rem;
   text-transform: uppercase;
   background: #00B4DB;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to left, #00B4DB, #0083B0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #00B4DB, #0083B0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border-radius: 25px;
   color: #232526;
   border: 1px solid #fff;
@@ -59,8 +59,8 @@ ul
 .btn_about:hover
 {
     background: #00B4DB;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #00B4DB, #0083B0);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #00B4DB, #0083B0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to left, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #0083B0,  #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 25px;
     color: #fff;
     transition: 0.3s;
