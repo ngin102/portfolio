@@ -96,6 +96,7 @@
 .card_text
 {
     font-size: 1rem;
+    overflow: auto;
     text-align: justify;
 }
 
@@ -119,6 +120,7 @@
     align-items: center;
     width: 400px;
     height: 210px;
+    overflow: scroll;
     flex: 1;
 }
 
@@ -140,6 +142,7 @@
     border: 3px solid #fff;
     color: #fff;
     flex: 1;
+    overflow: auto;
 }
 
 .courses_card
@@ -156,6 +159,7 @@
     color: black;
     width: 343px;
     margin: 0 1rem 0 -0.8rem;
+    overflow: auto;
 }
 
 .skills_card
@@ -172,6 +176,7 @@
     color: black;
     width: 355px;
     margin: 0 1.5rem 0 0.3rem;
+    overflow: auto;
 }
 
 .link_container
@@ -225,7 +230,6 @@
     color: #fff;
     transition: 0.3s;
 }
-
 
 .expandable
 {
