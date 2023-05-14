@@ -5,7 +5,6 @@ import About from "./routes/About"
 import Projects from "./routes/Projects"
 import { Route, Routes, useLocation } from "react-router-dom"
 import Navbar from "./components/Navbar"
-import { motion } from "framer-motion/dist/framer-motion";
 
 function App() {
   const location = useLocation();
