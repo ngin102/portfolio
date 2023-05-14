@@ -11,7 +11,6 @@ const HomeScreen = () => {
 
   return (
     <div className ="main_screen">
-
         <div className = "mask">
             <motion.div
               initial = {{opacity: 0}}
@@ -22,8 +21,7 @@ const HomeScreen = () => {
         </div>
 
         <div className = "info">
-          <h1> HELLO
-          </h1> 
+          <div> <h1> HELLO </h1> </div>
           <motion.div 
             className = "name_text"
             initial = {{opacity: 0}}
