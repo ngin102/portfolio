@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.91aef930.chunk.css",
-  "main.js": "/static/js/main.ce4fce96.chunk.js",
-  "main.js.map": "/static/js/main.ce4fce96.chunk.js.map",
+  "main.js": "/static/js/main.07d39378.chunk.js",
+  "main.js.map": "/static/js/main.07d39378.chunk.js.map",
   "static/js/1.367ecc6d.chunk.js": "/static/js/1.367ecc6d.chunk.js",
   "static/js/1.367ecc6d.chunk.js.map": "/static/js/1.367ecc6d.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -11,6 +11,6 @@
   "static/media/service_novigrad.png": "/static/media/service_novigrad.af2989cc.png",
   "static/css/main.91aef930.chunk.css.map": "/static/css/main.91aef930.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.6fa9962f0d1c74dd1f06407b68db012f.js": "/precache-manifest.6fa9962f0d1c74dd1f06407b68db012f.js",
+  "precache-manifest.5baaeb03df3d53b18c578116f01dcc41.js": "/precache-manifest.5baaeb03df3d53b18c578116f01dcc41.js",
   "service-worker.js": "/service-worker.js"
 }
