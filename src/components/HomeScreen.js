@@ -56,11 +56,11 @@ const HomeScreen = () => {
                     <div className = "contact_icon"> <AiOutlineMail size = {40} style = {{color: "black"}}/> </div> 
                   </a>
 
-                  <a href = "https://www.linkedin.com/in/nicholas-gin-6ba415275/" target="_blank" rel="noopener">
+                  <a href = "https://github.com/ngin102" target="_blank" rel="noopener">
                     <div className = "contact_icon"> <AiFillGithub size = {40} style = {{color: "black"}}/>  </div>
                   </a>
 
-                  <a href = "https://github.com/ngin102" target="_blank" rel="noopener">
+                  <a href = "https://www.linkedin.com/in/nicholas-gin-6ba415275/" target="_blank" rel="noopener">
                     <div className = "contact_icon"> <AiFillLinkedin size = {40} style = {{color: "black"}}/> </div> 
                   </a>
               </div>
