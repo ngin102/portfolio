@@ -3,6 +3,7 @@ import "./HomeScreenStyles.css";
 import React from "react";
 import { Link } from "react-router-dom";
 import { useEffect, useRef } from "react";
+import Typewriter from 'typewriter-effect';
 import { motion } from "framer-motion/dist/framer-motion";
 import HomeImg from "../assets/background.gif"
 import { AiOutlineMail, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
@@ -11,6 +12,7 @@ const HomeScreen = () => {
 
   return (
     <div className ="main_screen">
+
         <div className = "mask">
             <motion.div
               initial = {{opacity: 0}}
@@ -21,7 +23,15 @@ const HomeScreen = () => {
         </div>
 
         <div className = "info">
-          <div> <h1> HELLO </h1> </div>
+          <h1> 
+            <Typewriter
+            onInit={(typewriter)=> {
+            typewriter
+            .typeString("HELLO")
+            .start();
+            }}
+             />
+          </h1> 
           <motion.div 
             className = "name_text"
             initial = {{opacity: 0}}
