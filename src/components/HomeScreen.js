@@ -3,7 +3,6 @@ import "./HomeScreenStyles.css";
 import React from "react";
 import { Link } from "react-router-dom";
 import { useEffect, useRef } from "react";
-import Typewriter from 'typewriter-effect';
 import { motion } from "framer-motion/dist/framer-motion";
 import HomeImg from "../assets/background.gif"
 import { AiOutlineMail, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
@@ -23,14 +22,7 @@ const HomeScreen = () => {
         </div>
 
         <div className = "info">
-          <h1> 
-            <Typewriter
-            onInit={(typewriter)=> {
-            typewriter
-            .typeString("HELLO")
-            .start();
-            }}
-             />
+          <h1> HELLO
           </h1> 
           <motion.div 
             className = "name_text"
