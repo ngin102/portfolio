@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "45312692823659804a1d",
+    "revision": "636cfc7d3a873e848f09",
     "url": "/portfolio/static/css/main.0c801f41.chunk.css"
   },
   {
-    "revision": "45312692823659804a1d",
-    "url": "/portfolio/static/js/main.45312692.chunk.js"
+    "revision": "636cfc7d3a873e848f09",
+    "url": "/portfolio/static/js/main.636cfc7d.chunk.js"
   },
   {
     "revision": "4ae61d8affad0f070939",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/service_novigrad.af2989cc.png"
   },
   {
-    "revision": "ffd5da644607005cdf973f9d4820a863",
+    "revision": "a4e82bac6d984a7cece95069084ead3d",
     "url": "/portfolio/index.html"
   }
 ];
