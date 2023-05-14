@@ -45,7 +45,7 @@ const AboutScreen = () => {
                                initial = {{opacity: 0}}
                                animate = {{opacity: 1}}
                                transition = {{delay: 1.5}}>
-                                <a href = "mailto:recipient@example.com" target="_blank" rel="noopener">
+                                <a href = "mailto:nicholas.gin9@gmail.com" target="_blank" rel="noopener">
                                     <div className = "linked_icon"> <AiOutlineMail size = {40} style = {{color: "black"}}/> </div> 
                                 </a>
 

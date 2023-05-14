@@ -52,7 +52,7 @@ const HomeScreen = () => {
 
             <div>
               <div className = "contact_container">
-                  <a href = "mailto:recipient@example.com" target="_blank" rel="noopener">
+                  <a href = "mailto:nicholas.gin9@gmail.com" target="_blank" rel="noopener">
                     <div className = "contact_icon"> <AiOutlineMail size = {40} style = {{color: "black"}}/> </div> 
                   </a>
 
