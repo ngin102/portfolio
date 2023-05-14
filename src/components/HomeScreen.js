@@ -3,28 +3,12 @@ import "./HomeScreenStyles.css";
 import React from "react";
 import { Link } from "react-router-dom";
 import { useEffect, useRef } from "react";
-import { init } from "ityped";
+import Typewriter from 'typewriter-effect';
 import { motion } from "framer-motion/dist/framer-motion";
 import HomeImg from "../assets/background.gif"
 import { AiOutlineMail, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 const HomeScreen = () => {
-
-  const hello = useRef();
-  const name = useRef();
- 
-  useEffect(() => {
-    init(hello.current, 
-      {
-        showCursor: true,
-        strings: ["HELLO"],
-        loop: false,
-        showCursor: false,
-        typeSpeed: 120,
-        startDelay: 0,
-      })
-    console.log(hello)
-  },[])
 
   return (
     <div className ="main_screen">
@@ -39,7 +23,15 @@ const HomeScreen = () => {
         </div>
 
         <div className = "info">
-          <h1> <span ref = {hello}></span> </h1> 
+          <h1> 
+            <Typewriter
+            onInit={(typewriter)=> {
+            typewriter
+            .typeString("HELLO")
+            .start();
+            }}
+             />
+          </h1> 
           <motion.div 
             className = "name_text"
             initial = {{opacity: 0}}

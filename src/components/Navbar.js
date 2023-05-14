@@ -21,7 +21,7 @@ const Navbar = () => {
 
             <ul className ={click ? "nav_tabs active" : "nav_tabs"}>
                 <li>
-                    <Link to = "/portfolio" className = "nav_text" onClick={closeBurger}> Home </Link>
+                    <Link to = "/" className = "nav_text" onClick={closeBurger}> Home </Link>
                 </li>
                 <li>
                     <Link to = "/about" className = "nav_text" onClick={closeBurger}> About Me </Link>

@@ -19,7 +19,7 @@ const ProjectCardInfo =
         title: "Guess It",
         desc: "I collaborated with a team to design, develop, and deploy an interactive word-guessing game that runs on a web server and is accessed using a web browser.",
         task1: "• Designed and implemented the game's frontend using HTML, CSS, and JavaScript.",
-        task2: "• Configured the game’s backend, including an interactive leaderboard system, using PHP and PostgreSQL.",
+        task2: "• Configured the game's backend, including an interactive leaderboard system, using PHP and PostgreSQL.",
         task3: "• Utilized CSS and CSS frameworks (Bootstrap) to style and customize the game's layout and components.",
         source_code: "https://github.com/ngin102/Guess-It"
     },
@@ -38,7 +38,7 @@ const ProjectCardInfo =
         title: "Portfolio",
         desc: "This portfolio website!",
         task1: "• Designed and developed a responsive portfolio website using React.js.",
-        task2: "• Utilized React and iTyped components, as well as JSX, to create a dynamic and interactive user interface.",
+        task2: "• Utilized React and TypewriterJS components, as well as JSX, to create a dynamic and interactive user interface.",
         task3: "• Implemented smooth navigation using React Router to enable seamless transitions between different pages.",
         source_code: "https://github.com/ngin102/portfolio"
     }
