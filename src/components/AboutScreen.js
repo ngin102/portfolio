@@ -159,7 +159,8 @@ const AboutScreen = () => {
                                 <p> • Git </p>
                                 <p> • Android Studio </p>
                                 <p> • Helix ALM </p>
-                                <p> • Eclipse, Visual Studio Code </p>
+                                <p> • Eclipse </p>
+                                <p> • Visual Studio Code </p>
                                 <br></br>
                                 <p> <b> Data Analysis & Visualization: </b> </p>
                                 <p> • Power BI</p>
@@ -243,7 +244,8 @@ const AboutScreen = () => {
                                 <p> • Git </p>
                                 <p> • Android Studio </p>
                                 <p> • Helix ALM </p>
-                                <p> • Eclipse, Visual Studio Code </p>
+                                <p> • Eclipse </p>
+                                <p> • Visual Studio Code </p>
                                 <br></br>
                                 <p> <b> Data Analysis & Visualization: </b> </p>
                                 <p> • Power BI</p>

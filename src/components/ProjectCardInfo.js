@@ -18,7 +18,7 @@ const ProjectCardInfo =
         imgsrc: "https://www.youtube.com/embed/dW0wHRrURuY",
         title: "Guess It",
         desc: "I collaborated with a team to design, develop, and deploy an interactive word-guessing game that runs on a web server and is accessed using a web browser.",
-        task1: "• Designed and implemented the game's frontend using HTML, CSS, and JavaScript.",
+        task1: "• Designed and implemented the game's frontend, including five different game modes, using HTML, CSS, and JavaScript.",
         task2: "• Configured the game's backend, including an interactive leaderboard system, using PHP and PostgreSQL.",
         task3: "• Utilized CSS and CSS frameworks (Bootstrap) to style and customize the game's layout and components.",
         source_code: "https://github.com/ngin102/Guess-It"
@@ -29,17 +29,18 @@ const ProjectCardInfo =
         title: "Service Novigrad",
         desc: "I worked on a team to design a mobile Android application that enables users to access and track various provincial services, similar to ServiceOntario.",
         task1: "• Utilized Java and Android Studio to write frontend functionalities and create UI elements for three distinct user types: Administrator, Branch, and Customer.",
-        task2: "• Integrated a login system using Firebase Authentication and backend storage using Firebase Storage.",
+        task2: "• Integrated a login system using Firebase Authentication and utilized regexes to enforce password validation.",
+        task3: "• Implemented backend storage for stored service data using Firebase Storage.",
         source_code: "https://github.com/ngin102/service-novigrad"
     },
 
     {
         imgsrc: PortfolioPic,
         title: "Portfolio",
-        desc: "This portfolio website!",
-        task1: "• Designed and developed a responsive portfolio website using React.js.",
-        task2: "• Utilized React and TypewriterJS components, as well as JSX, to create a dynamic and interactive user interface.",
-        task3: "• Implemented smooth navigation using React Router to enable seamless transitions between different pages.",
+        desc: "I designed and developed a portfolio website (this website) to showcase my skills and projects. The website was built with React.js and offers a responsive layout that adapts to various screen sizes and devices.",
+        task1: "• Designed and developed a responsive portfolio website using React.js, ensuring optimal user experience across various devices and screen sizes.",
+        task2: "• Utilized React and TypewriterJS components, as well as JSX, to create a dynamic, interactive and animated user interface.",
+        task3: "• Implemented seamless navigation using HashRouter, enabling smooth transitions between different pages of the portfolio website and providing a user-friendly browsing experience.",
         source_code: "https://github.com/ngin102/portfolio"
     }
 ]

@@ -2,7 +2,6 @@ import "./HomeScreenStyles.css";
 
 import React from "react";
 import { Link } from "react-router-dom";
-import { useEffect, useRef } from "react";
 import Typewriter from 'typewriter-effect';
 import { motion } from "framer-motion/dist/framer-motion";
 import HomeImg from "../assets/background.gif"

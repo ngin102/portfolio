@@ -16,18 +16,18 @@ const Navbar = () => {
     return (
         <div className = "header">
             <Link to = "/">
-            <h1 className = "nav_text"> Nicholas Gin </h1>
+            <h1 className = "nav_text"> NICHOLAS GIN </h1>
             </Link>
 
             <ul className ={click ? "nav_tabs active" : "nav_tabs"}>
                 <li>
-                    <Link to = "/" className = "nav_text" onClick={closeBurger}> Home </Link>
+                    <Link to = "/" className = "nav_text" onClick={closeBurger}> HOME </Link>
                 </li>
                 <li>
-                    <Link to = "/about" className = "nav_text" onClick={closeBurger}> About Me </Link>
+                    <Link to = "/about" className = "nav_text" onClick={closeBurger}> ABOUT ME </Link>
                 </li>
                 <li>
-                    <Link to = "/projects" className = "nav_text" onClick={closeBurger}> Projects </Link>
+                    <Link to = "/projects" className = "nav_text" onClick={closeBurger}> PROJECTS </Link>
                 </li>
             </ul>
 

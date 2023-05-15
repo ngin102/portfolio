@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     height: 100%;
-    position: relative; /* Add position: relative */
+    position: relative;
 }
 
 .about_screen .info 
@@ -238,6 +238,32 @@
 
 @media screen and (max-width: 1040px)
 {
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      
+
+    .about_screen {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh; /* Use viewport height to set the height of the div */
+        overflow-x: hidden;
+      }
+
+    .about_screen .info 
+    {
+        position: absolute;
+        top: 50%; /* Position the div 50% from the top */
+        left: 50%; /* Position the div 50% from the left */
+        transform: translate(-50%, -50%); /* Move the div back by half of its width and height */
+        text-align: center;
+        margin-top: 46.3rem;
+    }
+
     .container {
         display: flex;
         flex-direction: column;
