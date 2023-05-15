@@ -9,7 +9,6 @@
   position: relative;
 }
 
-
 .project_screen .info {
   position: absolute;
   top: 0;
@@ -17,6 +16,22 @@
   transform: translateX(-50%);
   height: 20%;
   width: 100%;
+}
+
+.about_screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.about_screen .info {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
 }
 
 .home_img {

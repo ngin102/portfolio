@@ -115,7 +115,7 @@
 {
     .project_container
     {
-        max-width: 83%;
+        max-width: 75%;
         margin: auto;
         grid-template-columns: 1fr;
     }
