@@ -23,7 +23,7 @@ const AboutScreen = () => {
                 initial = {{opacity: 0}}
                 animate = {{opacity: 1}}
                 transition = {{delay: 0.6}}>
-                    <h1 className = "heading">ABOUT ME</h1>
+                    <h1 className = "about_heading">ABOUT ME</h1>
                 </motion.div>
         
                 <div className = "container">
