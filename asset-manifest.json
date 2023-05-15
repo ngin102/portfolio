@@ -1,7 +1,7 @@
 {
-  "main.css": "/portfolio/static/css/main.d2c9f98f.chunk.css",
-  "main.js": "/portfolio/static/js/main.29143ccb.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.29143ccb.chunk.js.map",
+  "main.css": "/portfolio/static/css/main.1b6dc0ce.chunk.css",
+  "main.js": "/portfolio/static/js/main.b31c236b.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.b31c236b.chunk.js.map",
   "static/js/1.4ae61d8a.chunk.js": "/portfolio/static/js/1.4ae61d8a.chunk.js",
   "static/js/1.4ae61d8a.chunk.js.map": "/portfolio/static/js/1.4ae61d8a.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
@@ -9,8 +9,8 @@
   "static/media/background.gif": "/portfolio/static/media/background.1f79c211.gif",
   "static/media/portfolio_pic.png": "/portfolio/static/media/portfolio_pic.a6220591.png",
   "static/media/service_novigrad.png": "/portfolio/static/media/service_novigrad.af2989cc.png",
-  "static/css/main.d2c9f98f.chunk.css.map": "/portfolio/static/css/main.d2c9f98f.chunk.css.map",
+  "static/css/main.1b6dc0ce.chunk.css.map": "/portfolio/static/css/main.1b6dc0ce.chunk.css.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.861cce6b479ea8f06a360ad3889c840a.js": "/portfolio/precache-manifest.861cce6b479ea8f06a360ad3889c840a.js",
+  "precache-manifest.4ebcb8f696b5271851898e900941737c.js": "/portfolio/precache-manifest.4ebcb8f696b5271851898e900941737c.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }
