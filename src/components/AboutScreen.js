@@ -66,7 +66,7 @@ const AboutScreen = () => {
                                 transition = {{delay: 1.9}}>
                                 <h2 className = "center"> OBJECTIVE </h2>
                                 <p className = "card_text">As a computer science graduate with passions for technology and problem-solving, I aspire to work in development to drive innovation and create impactful solutions. 
-                                I have a strong work ethic and collaborate well with others. My ultimate goal is to make a meaningful contribution to an organization’s success while furthering my own expertise.</p>
+                                I have a strong work ethic and collaborate well with others.<br></br> My goal is to contribute to an organization’s success while furthering my own expertise.</p>
                             </motion.div>
                         </div>
                     </div>
@@ -113,7 +113,7 @@ const AboutScreen = () => {
                             <div className="objective_card">    
                                 <h2 className = "center"> OBJECTIVE </h2>
                                 <p className = "card_text">As a computer science graduate with passions for technology and problem-solving, I aspire to work in development to drive innovation and create impactful solutions. 
-                                I have a strong work ethic and collaborate well with others. My ultimate goal is to make a meaningful contribution to an organization’s success while furthering my own expertise.</p>
+                                I have a strong work ethic and collaborate well with others. My goal is to contribute to an organization’s success while furthering my own expertise.</p>
                             </div>
                         </motion.div>
                     </div>

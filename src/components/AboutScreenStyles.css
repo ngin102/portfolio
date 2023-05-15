@@ -105,7 +105,7 @@
     justify-content: center;
     align-items: center;
     width: 400px;
-    height: 210px;
+    height: 200px;
     overflow: scroll;
     flex: 1;
 }
@@ -183,7 +183,7 @@
 
 .link_container .linked_icon:hover 
 {
-transform: scale(1.08);
+    transform: scale(1.08);
 }
 
 .link_container .linked_btn 
@@ -224,23 +224,16 @@ transform: scale(1.08);
 
 @media screen and (max-width: 800px)
 {
-    html, body {
+    body 
+    {
         height: 100%;
         margin: 0;
         padding: 0;
-      }
+        overflow-x: hidden;
+    }
       
-    .about_screen {
-        overflow-x: hidden;
-    }
-
-    .about_screen .info 
+    .container 
     {
-        overflow-x: hidden;
-        overflow-y: hidden;
-    }
-
-    .container {
         display: flex;
         flex-direction: column;
     }
