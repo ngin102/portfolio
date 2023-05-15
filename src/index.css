@@ -18,15 +18,18 @@
   width: 100%;
 }
 
-.about_screen {
+.about_screen 
+{
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100vw;
   height: 100vh;
+  position: relative;
 }
 
-.about_screen .info {
+.about_screen .info 
+{
   position: absolute;
   top: 0;
   left: 50%;
@@ -54,7 +57,7 @@
 
 h4, a
 {
-  color: #232526;
+  color: black;
   text-decoration: none;
 }
 
@@ -110,5 +113,3 @@ ul
     color: #fff;
     transition: 0.3s;
 }
-
-

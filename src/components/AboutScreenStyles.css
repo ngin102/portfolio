@@ -15,7 +15,8 @@
     padding: 7rem 0 2rem 0;
 }
 
-.container {
+.container 
+{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,16 +24,16 @@
     max-width: 1040px;
     margin: 0 auto;
     padding-bottom: 4rem;
-}
-
-.solo_container
+  }
+  
+.solo_container 
 {
     display: flex;
     width: 726px;
-    margin: -10px 0 10px -38px;
+    margin: -10px auto 10px;
 }
 
-.container2_1
+.container2_1 
 {
     width: 100%;
     display: flex;
@@ -41,63 +42,66 @@
     margin: 0rem 0rem 1rem 0;
 }
 
-.container3
-{
+.container3 {
     max-width: 1000px;
     display: flex;
-    margin: 1.1rem 7.1rem 0rem 8.8rem;
+    margin: 1.1rem auto 0rem;
 }
 
-.container2 .container2a, .container2b
+.container2 .container2a, .container2b 
 {
-    flex: 1
+    flex: 1;
 }
 
-.container3 .container3a, .container3b
+.container3 .container3a, .container3b 
 {
     width: 400px;
+    margin: 0 1rem;
 }
 
-.img_container {
+.img_container 
+{
     justify-content: center;
     align-items: center;
     width: 270px;
     height: 250px;
     flex: 1;
+    margin: -10px 0 19px 60px;
 }
-  
+
 .img_container img 
 {
     max-width: 100%;
     max-height: 100%;
     border-radius: 30px;
-    margin: -13px 0 30px 140px;
     border: 3px solid #fff;
+    margin: auto;
 }
 
-.card_text
+.card_text 
 {
     font-size: 1rem;
     overflow: auto;
     text-align: justify;
+    margin: 0;
 }
 
-.center
+.center 
 {
     text-align: center;
 }
 
-.objective_card
+.objective_card 
 {
-    padding: 12px 32px; 
+    padding: 12px 32px;
     font-size: 1rem;
-    background: #00B4DB;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #00B4DB;
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+    background: linear-gradient(to right, #0083B0, #00B4DB);
     border: 3px solid #fff;
     border-radius: 30px;
     color: #fff;
-    margin: 6px 25px 20px 195px;
+    margin: 6px auto 20px;
     justify-content: center;
     align-items: center;
     width: 400px;
@@ -106,30 +110,25 @@
     flex: 1;
 }
 
-.objective_card:hover, .edu_card:hover, .courses_card:hover, .skills_card:hover, .img_container img:hover
+.edu_card 
 {
-    border: 3px solid #232526;
-    transition: 0.3s;
-}
-
-.edu_card
-{
-    padding: 12px 32px; 
+    padding: 12px 32px;
     width: 800px;
     font-size: 1rem;
-    background: #232526;  /* fallback for old browsers */
-    background: -webkit-radial-gradient(to left, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-    background: radial-gradient(#414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #232526;
+    background: -webkit-radial-gradient(to left, #414345, #232526);
+    background: radial-gradient(#414345, #232526);
     border-radius: 30px;
     border: 3px solid #fff;
     color: #fff;
     flex: 1;
     overflow: auto;
+    margin: 0;
 }
 
-.courses_card
+.courses_card 
 {
-    padding: 12px 32px; 
+    padding: 12px 32px;
     font-size: 1rem;
     background-color: #b8c6db;
     background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
@@ -140,16 +139,16 @@
     text-align: left;
     color: black;
     width: 343px;
-    margin: 0 1rem 0 -0.8rem;
+    margin: 0.5rem 0.5rem;
     overflow: auto;
 }
 
-.skills_card
+.skills_card 
 {
-    padding: 12px 32px; 
+    padding: 12px 32px;
     font-size: 1rem;
     background-color: #fbb034;
-    background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+    background-image: linear-gradient( 315deg, #fbb034 0%, #ffdd00 74%);
     color: #232526;
     border: 3px solid #fff;
     border-radius: 30px;
@@ -157,36 +156,41 @@
     text-align: left;
     color: black;
     width: 355px;
-    margin: 0 1.5rem 0 0.3rem;
+    margin: 0.5rem 3.4rem;
     overflow: auto;
 }
 
-.link_container
+.link_container 
 {
     justify-content: center;
     align-items: center;
     display: flex;
     width: 394px;
     gap: 50px;
-    margin: -22px 0 -19px 200px;
+    margin: -22px auto -19px;
 }
 
-.link_container .linked_icon
+.link_container .linked_icon 
 {
     flex: 1;
     cursor: pointer;
 }
 
-.link_container .linked_icon:hover
+.img_container img:hover, .edu_card:hover, .skills_card:hover, .courses_card:hover, .objective_card:hover
 {
-    transform: scale(1.08);
+    border: 3px solid black; 
 }
 
-.link_container .linked_btn
+.link_container .linked_icon:hover 
+{
+transform: scale(1.08);
+}
+
+.link_container .linked_btn 
 {
     flex: 1;
     cursor: pointer;
-}
+}  
 
 .btn
 {
