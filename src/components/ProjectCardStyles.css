@@ -55,6 +55,14 @@
     text-align: justify;
 }
 
+.project_task
+{
+    color: white;
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: start;
+}
+
 .project_btn
 {
     width: 100%;

@@ -22,13 +22,13 @@ const ProjectCard = (props) => {
         <div className="project_text">
           <p>{desc}</p>
         </div>
-        <div className="project_text">
+        <div className="project_task">
           <p>{task1}</p>
         </div>
-        <div className="project_text">
+        <div className="project_task">
           <p>{task2}</p>
         </div>
-        <div className="project_text">
+        <div className="project_task">
           <p>{task3}</p>
         </div>
         <div className="project_btn">
@@ -46,13 +46,13 @@ const ProjectCard = (props) => {
         <div className="project_text">
           <p>{desc}</p>
         </div>
-        <div className="project_text">
+        <div className="project_task">
           <p>{task1}</p>
         </div>
-        <div className="project_text">
+        <div className="project_task">
           <p>{task2}</p>
         </div>
-        <div className="project_text">
+        <div className="project_task">
           <p>{task3}</p>
         </div>
         <div className="project_btn">

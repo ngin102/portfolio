@@ -6,10 +6,10 @@ const ProjectCardInfo =
     {
         imgsrc: "https://www.youtube.com/embed/22KvUPddP0I",
         title: "Manipulated Image Detector and Recommender",
-        desc: "For my honours project, I independently developed a mobile Android application that uses machine learning"
+        desc: "I independently developed a mobile Android application that uses machine learning"
         + " and image recognition to detect if an uploaded image is manipulated and recommends images that are similar to the uploaded image.",
-        task1: "• Designed the application's frontend using Java and Android Studio, integrating development tools, including Picasso and MLKit, for application functionality.",
-        task2: "• Engineered custom image detection neural networks using Python and industry-standard machine learning libraries, such as TensorFlow, Keras, and Scikit-Learn.",
+        task1: "• Designed the application's frontend using Java and Android Studio, integrating development tools, including Picasso and MLKit, for application functionality.",
+        task2: "• Engineered custom image detection neural networks using Python and industry-standard machine learning libraries, such as TensorFlow, Keras, and Scikit-Learn.",
         task3: "• Configured the application backend using Firebase Database and Firebase Cloud Storage, ensuring reliable and secure data storage and retrieval.",
         source_code: "https://github.com/ngin102/Manipulated-Image-Detector-and-Recommender"
     },

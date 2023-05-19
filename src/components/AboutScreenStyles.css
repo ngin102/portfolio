@@ -262,7 +262,7 @@
 
     .expandable
     {
-        display: block; /* or inline or inline-block */
+        display: block;
     }
 
     .container3 
