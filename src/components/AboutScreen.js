@@ -34,7 +34,7 @@ const AboutScreen = () => {
                          transition = {{delay: 1}}>
                             <div className="img_container">
                                 <img
-                                src="https://media.licdn.com/dms/image/D5603AQFES3iHLD55NA/profile-displayphoto-shrink_800_800/0/1683231829400?e=1689206400&v=beta&t=b1ZMe38eEQayE5XFmOZb_S9yDJgKy59nZhCtkWcXBwU"
+                                src="https://media.licdn.com/dms/image/D5603AQEk5HT7lOhEBw/profile-displayphoto-shrink_400_400/0/1684884866163?e=1690416000&v=beta&t=RO5ZMBpyi0vDvFON1VFqcQErUxcntkgFCOEXEO8_E2E"
                                 alt="Profile picture"
                                 />
                             </div>
@@ -78,7 +78,7 @@ const AboutScreen = () => {
                             animate = {{opacity: 1}}
                             transition = {{delay: 1}}>
                             <img
-                            src="https://media.licdn.com/dms/image/D5603AQFES3iHLD55NA/profile-displayphoto-shrink_800_800/0/1683231829400?e=1689206400&v=beta&t=b1ZMe38eEQayE5XFmOZb_S9yDJgKy59nZhCtkWcXBwU"
+                            src="https://media.licdn.com/dms/image/D5603AQEk5HT7lOhEBw/profile-displayphoto-shrink_400_400/0/1684884866163?e=1690416000&v=beta&t=RO5ZMBpyi0vDvFON1VFqcQErUxcntkgFCOEXEO8_E2E"
                             alt="Profile picture"
                             />
                         </motion.div>
@@ -136,6 +136,35 @@ const AboutScreen = () => {
                             animate = {{opacity: 1}}
                             transition = {{delay: 2.7}}
                             className = "solo_container">
+                            <div className="work_card">
+                                <h2> WORK EXPERIENCE </h2>
+                                <p> <b>Digital Media and Technology Consultant</b></p>
+                                <p> <i>New Star Restaurant</i> and </p>
+                                <p> <i>Li Va's Hair Design</i> </p>
+                                <p> Pembroke, ON </p>
+                                <p> (2019 - present) </p>
+                                <p> • Provided comprehensive technical support for company computer systems, audio systems, and network connectivity, including hardware setup for internet/phone systems and software installation/upgrades. </p>
+                                <br></br>
+                                <p> • Contacted vendors to troubleshoot technical issues, such as those related to Point of Sale systems, and to fix inaccurate information displayed on services such as Google Maps and Apple Maps. </p>
+                                <br></br>
+                                <p> • Created digital pricing guides used by staff members at both companies, as well as business logos, signage, and graphics. </p>
+                                <br></br>
+                                <p> • Managed social media accounts, overseeing all posts, customer queries, and content performance metrics. </p>
+                                <br></br>
+                                <h2> VOLUNTEER EXPERIENCE </h2>
+                                <p> <b>Student Audiovisual and Tech Support Aide</b></p>
+                                <p> <i>Bishop Smith Catholic High School</i> </p>
+                                <p> Pembroke, ON </p>
+                                <p> (2015 - 2019) </p>
+                                <p> • Set up and operated audiovisual equipment for school events, troubleshot technical issues, and provided technical support to students and staff members. </p>
+                            </div>
+                        </motion.div>
+
+                        <motion.div 
+                            className = "solo_container"
+                            initial = {{opacity: 0}}
+                            animate = {{opacity: 1}}
+                            transition = {{delay: 3.2}}>
                             <div className="skills_card">
                                 <h2> TECHNICAL SKILLS </h2>
                                 <p> <b> Programming Languages: </b> </p>
@@ -153,7 +182,7 @@ const AboutScreen = () => {
                                 <br></br>
                                 <p> <b> Databases & Query Languages: </b> </p>
                                 <p> • SQL (PostgreSQL) </p>
-                                <p> • Firebase </p>
+                                <p> • NoSQL (Firebase) </p>
                                 <br></br>
                                 <p> <b> Development Tools & IDEs: </b> </p>
                                 <p> • Git </p>
@@ -166,52 +195,10 @@ const AboutScreen = () => {
                                 <p> • Power BI</p>
                                 <br></br>
                                 <p> <b> Productivity Tools: </b> </p>
-                                <p> • Microsoft Office (Word, Excel, PowerPoint), Google Suite (Docs, Sheets, Slides), iWork (Pages, Numbers, Keynote) </p>
+                                <p> • Microsoft Office (Word, Excel, PowerPoint), Google Suite (Docs, Sheets, Slides), iWork (Pages, Numbers, Keynote)</p>
                                 <p> • Final Cut Pro, Compressor </p>
                                 <br></br>
                                 <p> <i>Have experience working in Linux, Windows, and macOS environments</i></p>
-                            </div>
-                        </motion.div>
-
-                        <motion.div 
-                            className = "solo_container"
-                            initial = {{opacity: 0}}
-                            animate = {{opacity: 1}}
-                            transition = {{delay: 3.2}}>
-                            <div className="courses_card">
-                                <h2> COMPLETED COURSES </h2>
-                                <p> <b>Computer Science:</b></p>
-                                <p> • Data Structures & Algorithms </p>
-                                <p> • Programming Paradigms </p>
-                                <p> • Fundamentals of Data Science </p>
-                                <p> • Intro to Artificial Intelligence </p>
-                                <p> • Design & Analysis of Algorithms I </p>
-                                <p> • Databases I & II </p>
-                                <p> • Operating Systems </p>
-                                <p> • Cryptography </p>
-                                <p> • WWW Structures, Techniques & Standards </p>
-                                <p> • Info Retrieval & the Internet </p>
-                                <p> • Programming Language Concepts </p>
-                                <p> • Discrete Structures </p>
-                                <p> • Professional Practice in Computing </p>
-                                <p> • Intro to Formal Languages </p>
-                                <p> • Advanced Programming Concepts with C++ </p>
-                                <br></br>
-                                <p> <b>Software Engineering:</b></p>
-                                <p> • Intro to Software Engineering </p>
-                                <p> • Software Requirements Analysis </p>
-                                <br></br>
-                                <p> <b>Computer Engineering:</b></p>
-                                <p> • Computer Architecture I </p>
-                                <p> • Intro to Data Communciations & Networking </p>
-                                <br></br>
-                                <p> <b>Information Technology:</b></p>
-                                <p> • Digital Systems I </p>
-                                <br></br>
-                                <p> <b>Other:</b></p>
-                                <p> • Technical Report Writing </p>
-                                <p> • Engineering Mechanics </p>
-                                <p> • Business Ethics </p>
                             </div>
                         </motion.div>
                     </div>
@@ -221,6 +208,30 @@ const AboutScreen = () => {
                         animate = {{opacity: 1}}
                         transition = {{delay: 2.7}}>
                         <div className="container3a">
+                            <div className="work_card">
+                                <h2> WORK EXPERIENCE </h2>
+                                <p> <b>Digital Media and Technology Consultant</b></p>
+                                <p> <i>New Star Restaurant</i> and <i>Li Va's Hair Design</i> </p>
+                                <p> Pembroke, ON </p>
+                                <p> (2019 - present) </p>
+                                <p> • Provided comprehensive technical support for company computer systems, audio systems, and network connectivity, including hardware setup for internet/phone systems and software installation/upgrades. </p>
+                                <br></br>
+                                <p> • Contacted vendors to troubleshoot technical issues, such as those related to Point of Sale systems, and to fix inaccurate information displayed on services such as Google Maps and Apple Maps. </p>
+                                <br></br>
+                                <p> • Created digital pricing guides used by staff members at both companies, as well as business logos, signage, and graphics. </p>
+                                <br></br>
+                                <p> • Managed social media accounts, overseeing all posts, customer queries, and content performance metrics. </p>
+                                <br></br>
+                                <h2> VOLUNTEER EXPERIENCE </h2>
+                                <p> <b>Student Audiovisual and Tech Support Aide</b></p>
+                                <p> <i>Bishop Smith Catholic High School</i> </p>
+                                <p> Pembroke, ON </p>
+                                <p> (2015 - 2019) </p>
+                                <p> • Set up and operated audiovisual equipment for school events, troubleshot technical issues, and provided technical support to students and staff members. </p>
+                            </div>
+                        </div>
+
+                        <div className="container3b">
                             <div className="skills_card">
                                 <h2> TECHNICAL SKILLS </h2>
                                 <p> <b> Programming Languages: </b> </p>
@@ -238,7 +249,7 @@ const AboutScreen = () => {
                                 <br></br>
                                 <p> <b> Databases & Query Languages: </b> </p>
                                 <p> • SQL (PostgreSQL) </p>
-                                <p> • Firebase </p>
+                                <p> • NoSQL (Firebase) </p>
                                 <br></br>
                                 <p> <b> Development Tools & IDEs: </b> </p>
                                 <p> • Git </p>
@@ -251,48 +262,10 @@ const AboutScreen = () => {
                                 <p> • Power BI</p>
                                 <br></br>
                                 <p> <b> Productivity Tools: </b> </p>
-                                <p> • Microsoft Office (Word, Excel, PowerPoint), Google Suite (Docs, Sheets, Slides), iWork (Pages, Numbers, Keynote) </p>
+                                <p> • Microsoft Office (Word, Excel, PowerPoint), Google Suite (Docs, Sheets, Slides), iWork (Pages, Numbers, Keynote)</p>
                                 <p> • Final Cut Pro, Compressor </p>
                                 <br></br>
                                 <p> <i>Have experience working in Linux, Windows, and macOS environments</i></p>
-                            </div>
-                        </div>
-
-                        <div className="container3b">
-                            <div className="courses_card">
-                                <h2> COMPLETED COURSES </h2>
-                                <p> <b>Computer Science:</b></p>
-                                <p> • Data Structures & Algorithms </p>
-                                <p> • Programming Paradigms </p>
-                                <p> • Fundamentals of Data Science </p>
-                                <p> • Intro to Artificial Intelligence </p>
-                                <p> • Design & Analysis of Algorithms I </p>
-                                <p> • Databases I & II </p>
-                                <p> • Operating Systems </p>
-                                <p> • Cryptography </p>
-                                <p> • WWW Structures, Techniques & Standards </p>
-                                <p> • Info Retrieval & the Internet </p>
-                                <p> • Programming Language Concepts </p>
-                                <p> • Discrete Structures </p>
-                                <p> • Professional Practice in Computing </p>
-                                <p> • Intro to Formal Languages </p>
-                                <p> • Advanced Programming Concepts with C++ </p>
-                                <br></br>
-                                <p> <b>Software Engineering:</b></p>
-                                <p> • Intro to Software Engineering </p>
-                                <p> • Software Requirements Analysis </p>
-                                <br></br>
-                                <p> <b>Computer Engineering:</b></p>
-                                <p> • Computer Architecture I </p>
-                                <p> • Intro to Data Communciations & Networking </p>
-                                <br></br>
-                                <p> <b>Information Technology:</b></p>
-                                <p> • Digital Systems I </p>
-                                <br></br>
-                                <p> <b>Other:</b></p>
-                                <p> • Technical Report Writing </p>
-                                <p> • Engineering Mechanics </p>
-                                <p> • Business Ethics </p>
                             </div>
                         </div>
                     </motion.div>

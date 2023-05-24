@@ -42,10 +42,11 @@
     margin: 0rem 0rem 1rem 0;
 }
 
-.container3 {
+.container3 
+{
     max-width: 1000px;
     display: flex;
-    margin: 1.1rem auto 0rem;
+    margin: 0.7rem auto 0rem;
 }
 
 .container2 .container2a, .container2b 
@@ -56,7 +57,7 @@
 .container3 .container3a, .container3b 
 {
     width: 400px;
-    margin: 0 1rem;
+    margin: 0 0.9rem;
 }
 
 .img_container 
@@ -126,7 +127,7 @@
     margin: 0;
 }
 
-.courses_card 
+.work_card 
 {
     padding: 12px 32px;
     font-size: 1rem;
@@ -138,8 +139,9 @@
     flex: 1;
     text-align: left;
     color: black;
-    width: 343px;
-    margin: 0.5rem 0.5rem;
+    width: 364px;
+    height: 760px;
+    margin: 0.5rem 3.4rem;
     overflow: auto;
 }
 
@@ -155,8 +157,9 @@
     flex: 1;
     text-align: left;
     color: black;
-    width: 355px;
-    margin: 0.5rem 3.4rem;
+    width: 327px;
+    height: 760px;
+    margin: 0.5rem 0.5rem 0rem 1.3rem;
     overflow: auto;
 }
 
@@ -176,7 +179,7 @@
     cursor: pointer;
 }
 
-.img_container img:hover, .edu_card:hover, .skills_card:hover, .courses_card:hover, .objective_card:hover
+.img_container img:hover, .edu_card:hover, .skills_card:hover, .work_card:hover, .objective_card:hover
 {
     border: 3px solid black; 
 }
@@ -277,8 +280,8 @@
         align-items: center;
         display: flex;
         width: auto;
-        margin: 0 auto;
         gap: 30px;
+        margin: 12px auto;
     }
 
     .edu_card
@@ -293,7 +296,8 @@
         flex: 1;
         max-width: 80%;
         max-height: 80%;
-        margin: 0 auto 15px auto;
+        margin: 0 auto;
+        margin-bottom: 20px;
     }
 
     .objective_card
@@ -305,10 +309,10 @@
         margin: 0 auto;
         max-width: 80%;
         max-height: 80%;
-        margin-bottom: 15px;
+        margin-bottom: 18px;
     }
 
-    .courses_card
+    .work_card
     {
         padding: 12px 32px; 
         width: 83%;
@@ -322,7 +326,9 @@
         max-width: 80%;
         max-height: 80%;
         text-align: left;
+        height: 100%;
         color: black;
+        margin-bottom: 10px;
     }
 
     .img_container {
@@ -336,7 +342,7 @@
         max-width: 100%;
         max-height: 100%;
         border-radius: 30px;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
     }
 
     .link_container
@@ -345,20 +351,22 @@
         align-items: center;
         display: flex;
         width: 50%;
+        margin-bottom: 0px;
     }
       
     .solo_container
     {
         width: 50%;
-        margin: 0 auto;
+        margin-bottom: 12px;
     }
 
-    .courses_card
+    .work_card
     {
         padding: 12px 32px; 
         max-width: 80%;
         max-height: 80%;
         margin: 0 auto;
+        margin-bottom: 22px;
     }
 
     .skills_card
@@ -369,5 +377,6 @@
         max-width: 80%;
         max-height: 80%;
         margin-bottom: 15px;
+        height: 100%;
     }
 }
