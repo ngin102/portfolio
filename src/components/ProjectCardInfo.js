@@ -26,7 +26,7 @@ const ProjectCardInfo =
 
     {
         imgsrc: ServiceNovigrad,
-        title: "Service Novigrad",
+        title: "ServiceNovigrad",
         desc: "I worked on a team to design a mobile Android application that enables users to access and track various provincial services, similar to ServiceOntario.",
         task1: "• Utilized Java and Android Studio to write frontend functionalities and create UI elements for three distinct user types: Administrator, Branch, and Customer.",
         task2: "• Integrated a login system using Firebase Authentication and utilized regexes to enforce password validation.",
