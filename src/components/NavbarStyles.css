@@ -9,14 +9,14 @@
     padding: 1rem;
     position: fixed;
     width: 100%;
-    height: 70px;
+    height: 4.375rem;
     z-index: 10;
 }
 
 .nav_text
 {
     color: white;
-    font-weight: 620;
+    font-weight: 620%;
 }
 
 .nav_tabs 

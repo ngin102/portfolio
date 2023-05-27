@@ -27,8 +27,8 @@ const AboutScreen = () => {
                 </motion.div>
         
                 <div className = "container">
-                    <div className="container2_1">
-                        <motion.div className="container2a"
+                    <div className = "container2">
+                        <motion.div className = "container2a"
                          initial = {{opacity: 0}}
                          animate = {{opacity: 1}}
                          transition = {{delay: 1}}>
@@ -138,11 +138,9 @@ const AboutScreen = () => {
                             className = "solo_container">
                             <div className="work_card">
                                 <h2> WORK EXPERIENCE </h2>
-                                <p> <b>Digital Media and Technology Consultant</b></p>
-                                <p> <i>New Star Restaurant</i> and </p>
-                                <p> <i>Li Va's Hair Design</i> </p>
-                                <p> Pembroke, ON </p>
-                                <p> (2019 - present) </p>
+                                <p> <b>Digital Media & Technology Consultant</b></p>
+                                <p> <i>New Star Restaurant</i> & <i>Li Va's Hair Design</i> </p>
+                                <p> Pembroke, ON, (2019 - present) </p>
                                 <p> • Provided comprehensive technical support for company computer systems, audio systems, and network connectivity, including hardware setup for internet/phone systems and software installation/upgrades. </p>
                                 <br></br>
                                 <p> • Contacted vendors to troubleshoot technical issues, such as those related to Point of Sale systems, and to fix inaccurate information displayed on services such as Google Maps and Apple Maps. </p>
@@ -152,11 +150,12 @@ const AboutScreen = () => {
                                 <p> • Managed social media accounts, overseeing all posts, customer queries, and content performance metrics. </p>
                                 <br></br>
                                 <h2> VOLUNTEER EXPERIENCE </h2>
-                                <p> <b>Student Audiovisual and Tech Support Aide</b></p>
+                                <p> <b>Student Audiovisual & Tech Support Aide</b></p>
                                 <p> <i>Bishop Smith Catholic High School</i> </p>
-                                <p> Pembroke, ON </p>
-                                <p> (2015 - 2019) </p>
-                                <p> • Set up and operated audiovisual equipment for school events, troubleshot technical issues, and provided technical support to students and staff members. </p>
+                                <p> Pembroke, ON, (2015 - 2019) </p>
+                                <p> • Set up and operated audiovisual equipment for school events</p>
+                                <p> • Troubleshot technical issues</p>
+                                <p> • Provided technical support to students and staff members. </p>
                             </div>
                         </motion.div>
 
@@ -196,7 +195,6 @@ const AboutScreen = () => {
                                 <br></br>
                                 <p> <b> Productivity Tools: </b> </p>
                                 <p> • Microsoft Office (Word, Excel, PowerPoint), Google Suite (Docs, Sheets, Slides), iWork (Pages, Numbers, Keynote)</p>
-                                <p> • Final Cut Pro, Compressor </p>
                                 <br></br>
                                 <p> <i>Have experience working in Linux, Windows, and macOS environments</i></p>
                             </div>
@@ -210,10 +208,9 @@ const AboutScreen = () => {
                         <div className="container3a">
                             <div className="work_card">
                                 <h2> WORK EXPERIENCE </h2>
-                                <p> <b>Digital Media and Technology Consultant</b></p>
-                                <p> <i>New Star Restaurant</i> and <i>Li Va's Hair Design</i> </p>
-                                <p> Pembroke, ON </p>
-                                <p> (2019 - present) </p>
+                                <p> <b>Digital Media & Technology Consultant</b></p>
+                                <p> <i>New Star Restaurant</i> & <i>Li Va's Hair Design</i> </p>
+                                <p> Pembroke, ON, (2019 - present) </p>
                                 <p> • Provided comprehensive technical support for company computer systems, audio systems, and network connectivity, including hardware setup for internet/phone systems and software installation/upgrades. </p>
                                 <br></br>
                                 <p> • Contacted vendors to troubleshoot technical issues, such as those related to Point of Sale systems, and to fix inaccurate information displayed on services such as Google Maps and Apple Maps. </p>
@@ -223,11 +220,12 @@ const AboutScreen = () => {
                                 <p> • Managed social media accounts, overseeing all posts, customer queries, and content performance metrics. </p>
                                 <br></br>
                                 <h2> VOLUNTEER EXPERIENCE </h2>
-                                <p> <b>Student Audiovisual and Tech Support Aide</b></p>
+                                <p> <b>Student Audiovisual & Tech Support Aide</b></p>
                                 <p> <i>Bishop Smith Catholic High School</i> </p>
-                                <p> Pembroke, ON </p>
-                                <p> (2015 - 2019) </p>
-                                <p> • Set up and operated audiovisual equipment for school events, troubleshot technical issues, and provided technical support to students and staff members. </p>
+                                <p> Pembroke, ON, (2015 - 2019) </p>
+                                <p> • Set up and operated audiovisual equipment for school events</p>
+                                <p> • Troubleshot technical issues</p>
+                                <p> • Provided technical support to students and staff members. </p>
                             </div>
                         </div>
 
@@ -262,8 +260,8 @@ const AboutScreen = () => {
                                 <p> • Power BI</p>
                                 <br></br>
                                 <p> <b> Productivity Tools: </b> </p>
-                                <p> • Microsoft Office (Word, Excel, PowerPoint), Google Suite (Docs, Sheets, Slides), iWork (Pages, Numbers, Keynote)</p>
-                                <p> • Final Cut Pro, Compressor </p>
+                                <p> • Microsoft Office </p>
+                                <p> (Word, Excel, PowerPoint)</p>
                                 <br></br>
                                 <p> <i>Have experience working in Linux, Windows, and macOS environments</i></p>
                             </div>

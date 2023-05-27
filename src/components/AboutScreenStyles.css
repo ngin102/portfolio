@@ -21,7 +21,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 1040px;
+    max-width: 65rem;
     margin: 0 auto;
     padding-bottom: 4rem;
   }
@@ -29,11 +29,11 @@
 .solo_container 
 {
     display: flex;
-    width: 726px;
-    margin: -10px auto 10px;
+    width: 45.375rem;
+    margin: -0.625rem auto 0.625rem;
 }
 
-.container2_1 
+.container2
 {
     width: 100%;
     display: flex;
@@ -44,19 +44,19 @@
 
 .container3 
 {
-    max-width: 1000px;
+    max-width: 62.5rem;
     display: flex;
-    margin: 0.7rem auto 0rem;
+    margin: 0.68rem auto 0rem;
 }
 
-.container2 .container2a, .container2b 
+.container2 .container2b 
 {
-    flex: 1;
+    margin: 0 4.375rem 0 4.0625rem;
 }
 
 .container3 .container3a, .container3b 
 {
-    width: 400px;
+    width: 25rem;
     margin: 0 0.9rem;
 }
 
@@ -64,10 +64,10 @@
 {
     justify-content: center;
     align-items: center;
-    width: 270px;
-    height: 250px;
+    width: 16.875rem;
+    height: 15.625rem;
     flex: 1;
-    margin: -10px 0 19px 60px;
+    margin: -0.625rem 0 1.1875rem 3.75rem;
 }
 
 .img_container img 
@@ -94,7 +94,7 @@
 
 .objective_card 
 {
-    padding: 12px 32px;
+    padding: 0.75rem 2rem;
     font-size: 1rem;
     background: #00B4DB;
     background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
@@ -102,19 +102,19 @@
     border: 3px solid #fff;
     border-radius: 30px;
     color: #fff;
-    margin: 6px auto 20px;
+    margin: 0.65rem auto 1.25rem;
     justify-content: center;
     align-items: center;
-    width: 400px;
-    height: 200px;
+    width: 25rem; 
+    height: 12.5rem;
     overflow: scroll;
     flex: 1;
 }
 
 .edu_card 
 {
-    padding: 12px 32px;
-    width: 800px;
+    padding: 0.75rem 2rem;
+    width: 50rem;
     font-size: 1rem;
     background: #232526;
     background: -webkit-radial-gradient(to left, #414345, #232526);
@@ -129,7 +129,7 @@
 
 .work_card 
 {
-    padding: 12px 32px;
+    padding: 0.75rem 2rem;
     font-size: 1rem;
     background-color: #b8c6db;
     background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
@@ -139,15 +139,18 @@
     flex: 1;
     text-align: left;
     color: black;
-    width: 364px;
-    height: 760px;
-    margin: 0.5rem 3.4rem;
+    width: 92%;
+    height: 99%;
+    margin: 0.5rem 3.4rem 0.5rem 3.4rem;
     overflow: auto;
+    max-width: 100%;
+    max-height: 100%;
+    align-items: center;
 }
 
 .skills_card 
 {
-    padding: 12px 32px;
+    padding: 0.75rem 2rem;
     font-size: 1rem;
     background-color: #fbb034;
     background-image: linear-gradient( 315deg, #fbb034 0%, #ffdd00 74%);
@@ -157,10 +160,13 @@
     flex: 1;
     text-align: left;
     color: black;
-    width: 327px;
-    height: 760px;
-    margin: 0.5rem 0.5rem 0rem 1.3rem;
+    width: 81%;
+    height: 99%;
+    margin: 0.5rem 0.5rem 0rem 1.57rem;
     overflow: auto;
+    max-width: 100%;
+    max-height: 100%;
+    align-items: center;
 }
 
 .link_container 
@@ -168,9 +174,9 @@
     justify-content: center;
     align-items: center;
     display: flex;
-    width: 394px;
-    gap: 50px;
-    margin: -22px auto -19px;
+    width: 24.625rem;
+    gap: 3.125rem;
+    margin: -1.375rem auto -1.1875rem;    
 }
 
 .link_container .linked_icon 
@@ -199,7 +205,7 @@
 {
     width: 100%;
     text-align: center;
-    padding: 10px 10px; 
+    padding: 0.625rem 0.625rem; 
     font-size: 1rem;
     text-transform: uppercase;
     background-color: #fbb034;
@@ -245,8 +251,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 450px;
-        height: 270px;
+        width: 28.125rem; 
+        height: 16.875rem;
         margin: 0 auto;
     }
 
@@ -258,7 +264,7 @@
         margin: 0 auto;
     }
 
-    .container2_1
+    .container2
     {
         display: None;
     }
@@ -280,13 +286,13 @@
         align-items: center;
         display: flex;
         width: auto;
-        gap: 30px;
-        margin: 12px auto;
+        gap: 1.875rem; 
+        margin: 0.75rem auto;
     }
 
     .edu_card
     {
-        padding: 12px 32px; 
+        padding: 0.75rem 2rem;
         font-size: 1rem;
         background: #232526;  /* fallback for old browsers */
         background: -webkit-radial-gradient(to left, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
@@ -296,8 +302,7 @@
         flex: 1;
         max-width: 80%;
         max-height: 80%;
-        margin: 0 auto;
-        margin-bottom: 20px;
+        margin: 0 auto 1.25rem;
     }
 
     .objective_card
@@ -309,12 +314,12 @@
         margin: 0 auto;
         max-width: 80%;
         max-height: 80%;
-        margin-bottom: 18px;
+        margin-bottom: 1.125rem;
     }
 
     .work_card
     {
-        padding: 12px 32px; 
+        padding: 0.75rem 2rem;
         width: 83%;
         font-size: 1rem;
         background-color: #b8c6db;
@@ -328,7 +333,7 @@
         text-align: left;
         height: 100%;
         color: black;
-        margin-bottom: 10px;
+        margin-bottom: 0.625rem;
     }
 
     .img_container {
@@ -342,7 +347,7 @@
         max-width: 100%;
         max-height: 100%;
         border-radius: 30px;
-        margin-bottom: 15px;
+        margin-bottom: 0.9375rem;
     }
 
     .link_container
@@ -351,32 +356,31 @@
         align-items: center;
         display: flex;
         width: 50%;
-        margin-bottom: 0px;
+        margin-bottom: 0;
     }
       
     .solo_container
     {
         width: 50%;
-        margin-bottom: 12px;
+        margin-bottom: 0.75rem;
     }
 
     .work_card
     {
-        padding: 12px 32px; 
+        padding: 0.75rem 2rem;
         max-width: 80%;
         max-height: 80%;
-        margin: 0 auto;
-        margin-bottom: 22px;
+        margin: 0 auto 1.375rem;
     }
 
     .skills_card
     {
-        padding: 12px 32px; 
+        padding: 0.75rem 2rem;
         width: auto;
         margin: 0 auto;
         max-width: 80%;
         max-height: 80%;
-        margin-bottom: 15px;
+        margin-bottom: 0.9375rem;
         height: 100%;
     }
 }
