@@ -15,7 +15,7 @@ const ProjectCardInfo =
     },
 
     {
-        imgsrc: "https://www.youtube.com/embed/dW0wHRrURuY",
+        imgsrc: "https://www.youtube.com/embed/D-zZ0QyAfnU",
         title: "Guess It",
         desc: "I collaborated with a team to design, develop, and deploy an interactive word-guessing game that runs on a web server and is accessed using a web browser.",
         task1: "• Designed and implemented the game's frontend, including five different game modes, using HTML, CSS, and JavaScript.",
