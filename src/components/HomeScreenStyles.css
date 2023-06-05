@@ -7,6 +7,9 @@
     width: 100vw;
     height: 100vh;
     position: relative;
+    min-width: 500px;
+    min-height: 660px;
+    overflow: scroll;
 }
   
 .main_screen .info 
@@ -23,6 +26,8 @@
     width: 100vw;
     height: 100vh;
     position: fixed;
+    min-width: 500px;
+    min-height: 660px;
 }
 
 .mask::after
@@ -105,6 +110,7 @@
 
 @media screen and (max-width: 640px)
 {
+
     .main_screen .info h1
     {
         text-transform: uppercase;
