@@ -1,7 +1,7 @@
 {
   "main.css": "/portfolio/static/css/main.f38b5e01.chunk.css",
-  "main.js": "/portfolio/static/js/main.d5acb134.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.d5acb134.chunk.js.map",
+  "main.js": "/portfolio/static/js/main.fba28b7b.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.fba28b7b.chunk.js.map",
   "static/js/1.4ae61d8a.chunk.js": "/portfolio/static/js/1.4ae61d8a.chunk.js",
   "static/js/1.4ae61d8a.chunk.js.map": "/portfolio/static/js/1.4ae61d8a.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
@@ -11,6 +11,6 @@
   "static/media/service_novigrad.png": "/portfolio/static/media/service_novigrad.30e4c87e.png",
   "static/css/main.f38b5e01.chunk.css.map": "/portfolio/static/css/main.f38b5e01.chunk.css.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.e50c9793333cbd51ae13c6377f6f4019.js": "/portfolio/precache-manifest.e50c9793333cbd51ae13c6377f6f4019.js",
+  "precache-manifest.08b749276b8e78b53064be1dd0d00d6b.js": "/portfolio/precache-manifest.08b749276b8e78b53064be1dd0d00d6b.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }
