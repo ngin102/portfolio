@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "c1761053c4efdba9cc0f",
-    "url": "/portfolio/static/css/main.e07fd948.chunk.css"
+    "revision": "763f37f0ccb3fd87b609",
+    "url": "/portfolio/static/css/main.10cdc3c7.chunk.css"
   },
   {
-    "revision": "c1761053c4efdba9cc0f",
-    "url": "/portfolio/static/js/main.c1761053.chunk.js"
+    "revision": "763f37f0ccb3fd87b609",
+    "url": "/portfolio/static/js/main.763f37f0.chunk.js"
   },
   {
-    "revision": "588a81f5073c97bb5d0f",
-    "url": "/portfolio/static/js/1.588a81f5.chunk.js"
+    "revision": "89786c6f5e784b575372",
+    "url": "/portfolio/static/js/1.89786c6f.chunk.js"
   },
   {
     "revision": "ee2a100325fd284f0097",
@@ -28,7 +28,11 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/service_novigrad.30e4c87e.png"
   },
   {
-    "revision": "16cfb4cd22f7baea1c53fd5850e5513d",
+    "revision": "fff83c9569cc5b72fb70840bcdf3e50e",
+    "url": "/portfolio/static/media/data_science.fff83c95.png"
+  },
+  {
+    "revision": "95bdebd537628bdf0d1ac48582317047",
     "url": "/portfolio/index.html"
   }
 ];
