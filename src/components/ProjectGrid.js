@@ -27,6 +27,7 @@ const ProjectGrid = () => {
                 task1 = {val.task1}
                 task2 = {val.task2}
                 task3 = {val.task3}
+                task4 = {val.task4}
                 source_code = {val.source_code}
               />
             );

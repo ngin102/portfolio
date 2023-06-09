@@ -1,18 +1,9 @@
 import PortfolioPic from "../assets/portfolio_pic.png"
 import ServiceNovigrad from "../assets/service_novigrad.png"
+import DataScience from "../assets/data_science.png"
 
 const ProjectCardInfo =
 [
-    {
-        imgsrc: "https://www.youtube.com/embed/wA9pJnUlyEY",
-        title: "Manipulated Image Detector Chrome Extension",
-        desc: "As a companion to the Manipulated Image Detector and Recommender, I independently developed a Chrome extension that uses machine learning"
-        + " and image recognition to detect if an image on a website is manipulated.",
-        task1: "• Designed the extension using HTML, CSS, JavaScript, and TensorFlow.js.",
-        task2: "• Converted the neural networks used in the Manipulated Image Detector and Recommender to suitable formats (.json and .bin) for the extension.",
-        source_code: "https://github.com/ngin102/manipulated-image-detector-extension"
-    },
-
     {
         imgsrc: "https://www.youtube.com/embed/22KvUPddP0I",
         title: "Manipulated Image Detector and Recommender",
@@ -25,13 +16,34 @@ const ProjectCardInfo =
     },
 
     {
+        imgsrc: "https://www.youtube.com/embed/wA9pJnUlyEY",
+        title: "Manipulated Image Detector Chrome Extension",
+        desc: "As a companion to the Manipulated Image Detector and Recommender, I independently developed a Chrome extension that uses machine learning"
+        + " and image recognition to detect if an image on a website is manipulated.",
+        task1: "• Designed the extension using HTML, CSS, JavaScript, and TensorFlow.js.",
+        task2: "• Converted the neural networks used in the Manipulated Image Detector and Recommender to suitable formats (.json and .bin) for the extension.",
+        source_code: "https://github.com/ngin102/manipulated-image-detector-extension"
+    },
+
+    {
         imgsrc: "https://www.youtube.com/embed/D-zZ0QyAfnU",
         title: "Guess It",
         desc: "I collaborated with a team to design, develop, and deploy an interactive word-guessing game that runs on a web server and is accessed using a web browser.",
         task1: "• Designed and implemented the game's frontend, including five different game modes, using HTML, CSS, and JavaScript.",
         task2: "• Configured the game's backend, including an interactive leaderboard system, using PHP and PostgreSQL.",
         task3: "• Utilized CSS and CSS frameworks (Bootstrap) to style and customize the game's layout and components.",
+        task4: "• Fixed bugs and wrote Linux-compatible shell scripts to deploy the game on a server.",
         source_code: "https://github.com/ngin102/guess-it"
+    },
+
+    {
+        imgsrc: DataScience,
+        title: "Disneyland and Universal Studios Reviews Data Science Analysis",
+        desc: "I worked on a team to apply data science principles to analyze trends in datasets of Disneyland and Universal Studios reviews.",
+        task1: "• Implemented data staging, ETL (extract, transform, load), and  data mart creation processes using Python to prepare and enrich  the datasets for analysis, including outlier detection.",
+        task2: "• Used classification algorithms to build predictive machine learning models on trends in the datasets and evaluated their performance.",
+        task3: "• Wrote SQL queries to visualize the datasets and assisted in creating an interactive Power BI dashboard.",
+        source_code: "https://github.com/ngin102/disneyland-and-universal-studios-reviews-analysis?search=1"
     },
 
     {

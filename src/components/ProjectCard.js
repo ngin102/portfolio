@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 
 
 const ProjectCard = (props) => {
-  const { imgsrc, title, desc, task1, task2, task3, source_code} = props;
+  const { imgsrc, title, desc, task1, task2, task3, task4, source_code} = props;
   const isHttps = typeof imgsrc === 'string' && imgsrc.startsWith('https:');
 
   if (isHttps) {
@@ -31,6 +31,9 @@ const ProjectCard = (props) => {
         <div className="project_task">
           <p>{task3}</p>
         </div>
+        <div className="project_task">
+          <p>{task4}</p>
+        </div>
         <div className="project_btn">
           <NavLink to={source_code} className="btn" target="_blank" rel="noopener">Source Code</NavLink>
         </div>
@@ -54,6 +57,9 @@ const ProjectCard = (props) => {
         </div>
         <div className="project_task">
           <p>{task3}</p>
+        </div>
+        <div className="project_task">
+          <p>{task4}</p>
         </div>
         <div className="project_btn">
           <NavLink to={source_code} className="btn" target="_blank" rel="noopener">Source Code</NavLink>
