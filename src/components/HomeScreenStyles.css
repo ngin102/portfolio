@@ -7,7 +7,7 @@
     width: 100vw;
     height: 100vh;
     position: relative;
-    min-width: 500px;
+    min-width: 400px;
     min-height: 660px;
     overflow: scroll;
 }
@@ -26,7 +26,7 @@
     width: 100vw;
     height: 100vh;
     position: fixed;
-    min-width: 500px;
+    min-width: 400px;
     min-height: 660px;
 }
 

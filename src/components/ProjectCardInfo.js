@@ -47,6 +47,15 @@ const ProjectCardInfo =
     },
 
     {
+        imgsrc: "https://www.youtube.com/embed/_Kl-qP9_ze8",
+        title: "Chatroom",
+        desc: "A chatroom web application built using Django and Tailwind CSS.",
+        task1: "• Constructed the application using the Python-based web framework, Django.",
+        task2: "• Designed the user interface using HTML and Tailwind CSS.",
+        source_code: "https://github.com/ngin102/chatroom"
+    },
+
+    {
         imgsrc: ServiceNovigrad,
         title: "ServiceNovigrad",
         desc: "I worked on a team to design a mobile Android application that enables users to access and track various provincial services, similar to ServiceOntario.",

@@ -7,10 +7,10 @@
 
 .project_container 
 {
-    max-width: 71.25rem;
+    max-width: 85rem;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.875rem;
     padding-bottom: 4rem;
 }
@@ -119,13 +119,13 @@
 }
   
 
-@media screen and (max-width: 1300px)
+@media screen and (max-width: 1400px)
 {
     .project_container
     {
         max-width: 80%;
         margin: auto;
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .project_card .btn
@@ -137,4 +137,15 @@
     {
         width: 60%;
     }
- }
+
+}
+
+@media screen and (max-width: 900px)
+{
+    .project_container
+    {
+        max-width: 80%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}

@@ -10,7 +10,7 @@ import { AiOutlineMail, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 const HomeScreen = () => {
 
   return (
-    <div className ="main_screen">
+    <div className = "main_screen">
 
         <div className = "mask">
             <motion.div
