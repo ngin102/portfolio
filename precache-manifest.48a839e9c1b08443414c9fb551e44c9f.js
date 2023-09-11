@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "09aa0db9c0435b7ac2c9",
-    "url": "/portfolio/static/css/main.5c7e62ee.chunk.css"
+    "revision": "7dc5d876e9f268f5f4b8",
+    "url": "/portfolio/static/css/main.ed38baa8.chunk.css"
   },
   {
-    "revision": "09aa0db9c0435b7ac2c9",
-    "url": "/portfolio/static/js/main.09aa0db9.chunk.js"
+    "revision": "7dc5d876e9f268f5f4b8",
+    "url": "/portfolio/static/js/main.7dc5d876.chunk.js"
   },
   {
-    "revision": "89786c6f5e784b575372",
-    "url": "/portfolio/static/js/1.89786c6f.chunk.js"
+    "revision": "b6f7f64ef10303e2f02b",
+    "url": "/portfolio/static/js/1.b6f7f64e.chunk.js"
   },
   {
     "revision": "ee2a100325fd284f0097",
@@ -18,6 +18,10 @@ self.__precacheManifest = [
   {
     "revision": "1f79c21101055d0abc11609ac1fc0b1d",
     "url": "/portfolio/static/media/background.1f79c211.gif"
+  },
+  {
+    "revision": "57cc6a84e3a109482555c945cbfeeac9",
+    "url": "/portfolio/static/media/profile_pic.57cc6a84.png"
   },
   {
     "revision": "a622059140ea67c24a54da6b53fdae7d",
@@ -32,7 +36,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/data_science.fff83c95.png"
   },
   {
-    "revision": "86c68bede1d425efa5d6bcd5dc905e2c",
+    "revision": "25b41ab56ea7840e8bb8eb7a9d7567f4",
     "url": "/portfolio/index.html"
   }
 ];
