@@ -79,8 +79,8 @@ const AboutScreen = () => {
                             animate = {{opacity: 1}}
                             transition = {{delay: 1}}>
                             <img
-                            src="https://media.licdn.com/dms/image/D5603AQEk5HT7lOhEBw/profile-displayphoto-shrink_400_400/0/1684884866163?e=1690416000&v=beta&t=RO5ZMBpyi0vDvFON1VFqcQErUxcntkgFCOEXEO8_E2E"
-                            alt="Profile picture"
+                            src = {ProfilePic}
+                            alt = "Profile picture"
                             />
                         </motion.div>
                             
@@ -139,23 +139,42 @@ const AboutScreen = () => {
                             className = "solo_container">
                             <div className="work_card">
                                 <h2> WORK EXPERIENCE </h2>
-                                <p> <b>Digital Media & Technology Consultant</b></p>
+                                <p> <b>E-Commerce Advisor</b></p>
+                                <p> <i>Mosaic North America</i> </p>
+                                <p> Ottawa, ON, (2023 - present) </p>
+                                <p> • Held one-to-one consultations with small businesses, documenting and analyzing their needs to recommend strategic plans and solutions for growing their e-commerce presence through the Canada Digital Adoption Program. </p>
+                                <br></br>
+                                <p> • Built e-commerce websites on Shopify, Square, and Ecwid platforms. </p>
+                                <br></br>
+                                <p> • Performed quality audits on existing business websites. </p>
+                                <br></br>
+                                <p> • Wrote resource guides and documentation to address technical and program-related inquiries. </p>
+                                <br></br>
+                                <p> • Coached businesses on creating digital marketing plans, including digital advertisement and analytic solutions, utilizing training from Google and Meta. </p>
+                                <br></br>
+                                <p> • Trained businesses on cybersecurity using training from MasterCard. </p>
+                                <br></br>
+
+                                <p> <b>IT & Digital Media Consultant</b></p>
                                 <p> <i>New Star Restaurant</i> & <i>Li Va's Hair Design</i> </p>
                                 <p> Pembroke, ON, (2019 - present) </p>
-                                <p> • Provided comprehensive technical support for company computer systems, audio systems, and network connectivity, including hardware setup for internet/phone systems and software installation/upgrades. </p>
+                                <p> • Provided comprehensive technical support for company computer and audio systems and network connectivity, including hardware setup for internet/phone systems and software installation/upgrades. </p>
                                 <br></br>
-                                <p> • Contacted vendors to troubleshoot technical issues, such as those related to Point of Sale systems, and to fix inaccurate information displayed on services such as Google Maps and Apple Maps. </p>
+                                <p> • Contacted vendors to diagnose and troubleshoot technical issues, such as those related to Point of Sale systems and inaccuracies on Google Maps. </p>
                                 <br></br>
                                 <p> • Created digital pricing guides used by staff members at both companies, as well as business logos, signage, and graphics. </p>
                                 <br></br>
-                                <p> • Managed social media accounts, overseeing all posts, customer queries, and content performance metrics. </p>
+                                <p> • Managed social media accounts, including posts and performance metrics. </p>
                                 <br></br>
+
                                 <h2> VOLUNTEER EXPERIENCE </h2>
                                 <p> <b>Student Audiovisual & Tech Support Aide</b></p>
                                 <p> <i>Bishop Smith Catholic High School</i> </p>
                                 <p> Pembroke, ON, (2015 - 2019) </p>
-                                <p> • Set up and operated audiovisual equipment for school events</p>
-                                <p> • Troubleshot technical issues</p>
+                                <p> • Set up and operated audiovisual equipment for school events.</p>
+                                <br></br>
+                                <p> • Troubleshot technical issues.</p>
+                                <br></br>
                                 <p> • Provided technical support to students and staff members. </p>
                             </div>
                         </motion.div>
@@ -166,10 +185,11 @@ const AboutScreen = () => {
                             animate = {{opacity: 1}}
                             transition = {{delay: 3.2}}>
                             <div className="skills_card">
-                                <h2> TECHNICAL SKILLS </h2>
+                                
+                            <h2> TECHNICAL SKILLS </h2>
                                 <p> <b> Programming Languages: </b> </p>
                                 <p> • Java </p>
-                                <p> • Python </p>
+                                <p> • Python (& Django) </p>
                                 <p> • C++ </p>
                                 <p> • Go </p>
                                 <p> • Prolog </p>
@@ -195,9 +215,24 @@ const AboutScreen = () => {
                                 <p> • Power BI</p>
                                 <br></br>
                                 <p> <b> Productivity Tools: </b> </p>
-                                <p> • Microsoft Office (Word, Excel, PowerPoint), Google Suite (Docs, Sheets, Slides), iWork (Pages, Numbers, Keynote)</p>
+                                <p> • Microsoft Office </p>
+                                <p> (Word, Excel, PowerPoint)</p>
+                                <p> • Adobe Creative Cloud </p>
+                                <p> (Photoshop)</p>
+                                <p> • Final Cut Pro </p>
                                 <br></br>
                                 <p> <i>Have experience working in Linux, Windows, and macOS environments</i></p>
+                                <br></br>
+
+                                <h2> CERTIFICATIONS </h2>
+                                <p> • Google Ads Display Certification, 2023 </p>
+                                <p> • Google Ads Measurement Certification, 2023 </p>
+                                <p> • Google Ads Search Certification, 2023 </p>
+                                <p> • Google Analytics Certification, 2023 </p>
+                                <p> • Hootsuite Social Media Marketing Certification, 2023 </p>
+                                <p> • Semrush Content Marketing and SEO Fundamentals with Eric Enge Certification, 2023 </p>
+                                <p> • Meltwater Academy Certification Level I: Media Monitoring with Meltwater, 2023 </p>
+                                <p> •  Meltwater Academy Influencer Marketing I - Industry Specialist, 2023 </p>
                             </div>
                         </motion.div>
                     </div>
@@ -242,7 +277,9 @@ const AboutScreen = () => {
                                 <p> <i>Bishop Smith Catholic High School</i> </p>
                                 <p> Pembroke, ON, (2015 - 2019) </p>
                                 <p> • Set up and operated audiovisual equipment for school events.</p>
+                                <br></br>
                                 <p> • Troubleshot technical issues.</p>
+                                <br></br>
                                 <p> • Provided technical support to students and staff members. </p>
                             </div>
                         </div>
