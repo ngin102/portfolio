@@ -139,30 +139,44 @@ const AboutScreen = () => {
                             className = "solo_container">
                             <div className="work_card">
                                 <h2> WORK EXPERIENCE </h2>
-                                <p> <b>E-Commerce Advisor</b></p>
+                                <p> <b>E-Commerce Coordinator/Advisor</b></p>
                                 <p> <i>Mosaic North America</i> </p>
                                 <p> Ottawa, ON, (2023 - present) </p>
-                                <p> • Held one-to-one consultations with small businesses, documenting and analyzing their needs to recommend strategic plans and solutions for growing their e-commerce presence through the Canada Digital Adoption Program. </p>
+                                <p> • Held one-to-one consultations with small businesses, logging and analyzing their requirements to lead projects aimed at developing strategic technological solutions for growing and improving their e-commerce presence and digital technologies. </p>
+                                <br></br>
+                                <p> • Awarded the “Key Collaborator Award” for October 2023 in recognition of my effective teamwork and strong work ethic with my colleagues, clientele, and other project stakeholders. </p>
+                                <br></br>
+                                <p> • Awarded Weekly Top Performer in February 2024. </p>
+                                <br></br>
+                                <p> • Managed 51+ project workflows and work plans to meet deadlines and coordinate project deliverables using HubSpot CRM and Microsoft 365/SharePoint. </p>
+                                <br></br>
+                                <p> • Serviced, triaged, and addressed help desk-style technical and troubleshooting requests from businesses. </p>
                                 <br></br>
                                 <p> • Built e-commerce websites on Shopify, Square, and Ecwid platforms. </p>
                                 <br></br>
-                                <p> • Performed quality audits on existing business websites. </p>
+                                <p> • Trained businesses on cybersecurity and e-commerce platforms (including platform backend demos) using training from Mastercard, Google, and Meta. </p>
+                                <br></br>
+                                <p> • Conducted comprehensive quality audits on existing business websites, writing report-style feedback to improve their websites. </p>
                                 <br></br>
                                 <p> • Wrote resource guides and documentation to address technical and program-related inquiries. </p>
                                 <br></br>
-                                <p> • Coached businesses on creating digital marketing plans, including digital advertisement and analytic solutions, utilizing training from Google and Meta. </p>
+                                <p> • Participated in website design reviews with my colleagues, supervisors, and stakeholders.</p>
                                 <br></br>
-                                <p> • Trained businesses on cybersecurity using training from MasterCard. </p>
+                                <p> • Coached businesses on creating digital marketing plans, including digital advertisement and analytic solutions, utilizing training from Google and Meta.</p>
                                 <br></br>
 
                                 <p> <b>IT & Digital Media Consultant</b></p>
                                 <p> <i>New Star Restaurant</i> & <i>Li Va's Hair Design</i> </p>
                                 <p> Pembroke, ON, (2019 - present) </p>
-                                <p> • Provided comprehensive technical support for company computer and audio systems and network connectivity, including hardware setup for internet/phone systems and software installation/upgrades. </p>
+                                <p> • Provided technical support, maintenance and troubleshooting for company Windows and macOS computer systems and wireless networks, including hardware installation/setup, software installation/administration/upgrades, and physical and Cloud data backup system setup/maintenance. </p>
                                 <br></br>
-                                <p> • Contacted vendors to diagnose and troubleshoot technical issues, such as those related to Point of Sale systems and inaccuracies on Google Maps. </p>
+                                <p> • Recommended new technologies to the businesses based on their requirements and budgetary restrictions. </p>
                                 <br></br>
-                                <p> • Created digital pricing guides used by staff members at both companies, as well as business logos, signage, and graphics. </p>
+                                <p> • Implemented IT security/cybersecurity measures, including anti-viruses and firewalls. </p>
+                                <br></br>
+                                <p> • Liaised with vendors and service providers to complete service contracts and diagnose and troubleshoot technical issues, such as those related to network disruptions. </p>
+                                <br></br>
+                                <p> • Designed digital pricing guides used by staff members at both companies, as well as business logos, signage, and graphics. </p>
                                 <br></br>
                                 <p> • Managed social media accounts, including posts and performance metrics. </p>
                                 <br></br>
@@ -224,11 +238,39 @@ const AboutScreen = () => {
                                 <p> <i>Have experience working in Linux, Windows, and macOS environments</i></p>
                                 <br></br>
 
+                                <h2> AWARDS </h2>
+                                <p> <b>Weekly Top Performer</b></p>
+                                <p> <i>Mosaic North America</i> </p>
+                                <p> February 2024 </p>
+                                <p> • Awarded Weekly Top Performer in February 2024. </p>
+                                <br></br>
+                                <p> <b>Key Collaborator</b></p>
+                                <p> <i>Mosaic North America</i> </p>
+                                <p> October 2023 </p>
+                                <p> • Awarded Key Collaborator for the month of October 2023 in recognition of my collaboration abilities and work ethic in interactions with both my colleagues and clientele. </p>
+                                <br></br>
+                                <p> <b>Dean's Honours List</b></p>
+                                <p> <i>University of Ottawa</i> </p>
+                                <p> 2019-2023 </p>
+                                <p> I consistently earned recognition on the Dean's Honours List throughout my academic career at the University of Ottawa from 2019-2023. </p>
+                                <br></br>
+                                <p> <b>uOttawa Admission Scholarship</b></p>
+                                <p> <i>University of Ottawa</i> </p>
+                                <p> September 2019 </p>
+                                <p> I received a $4000 admission scholarship from the University of Ottawa for an entrance average of 96.17%. </p>
+                                <br></br>
+                                <p> <b>Governor General's Academic Medal</b></p>
+                                <p> <i>Government of Canada</i> </p>
+                                <p> June 2019 </p>
+                                <p> I was awarded the Governor  General's Academic Medal for achieving the highest academic standing in my graduating secondary school class. </p>
+                                <br></br>
+                                
                                 <h2> CERTIFICATIONS </h2>
+                                <p> • Shopify Ecommerce Certification, 2024 </p>
+                                <p> • Google Analytics Certification, 2023 </p>
                                 <p> • Google Ads Display Certification, 2023 </p>
                                 <p> • Google Ads Measurement Certification, 2023 </p>
                                 <p> • Google Ads Search Certification, 2023 </p>
-                                <p> • Google Analytics Certification, 2023 </p>
                                 <p> • Hootsuite Social Media Marketing Certification, 2023 </p>
                                 <p> • Semrush Content Marketing and SEO Fundamentals with Eric Enge Certification, 2023 </p>
                                 <p> • Meltwater Academy Certification Level I: Media Monitoring with Meltwater, 2023 </p>
@@ -244,30 +286,44 @@ const AboutScreen = () => {
                         <div className="container3a">
                             <div className="work_card">
                                 <h2> WORK EXPERIENCE </h2>
-                                <p> <b>E-Commerce Advisor</b></p>
+                                <p> <b>E-Commerce Coordinator/Advisor</b></p>
                                 <p> <i>Mosaic North America</i> </p>
                                 <p> Ottawa, ON, (2023 - present) </p>
-                                <p> • Held one-to-one consultations with small businesses, documenting and analyzing their needs to recommend strategic plans and solutions for growing their e-commerce presence through the Canada Digital Adoption Program. </p>
+                                <p> • Held one-to-one consultations with small businesses, logging and analyzing their requirements to lead projects aimed at developing strategic technological solutions for growing and improving their e-commerce presence and digital technologies. </p>
+                                <br></br>
+                                <p> • Awarded the “Key Collaborator Award” for October 2023 in recognition of my effective teamwork and strong work ethic with my colleagues, clientele, and other project stakeholders. </p>
+                                <br></br>
+                                <p> • Awarded Weekly Top Performer in February 2024. </p>
+                                <br></br>
+                                <p> • Managed 51+ project workflows and work plans to meet deadlines and coordinate project deliverables using HubSpot CRM and Microsoft 365/SharePoint. </p>
+                                <br></br>
+                                <p> • Serviced, triaged, and addressed help desk-style technical and troubleshooting requests from businesses. </p>
                                 <br></br>
                                 <p> • Built e-commerce websites on Shopify, Square, and Ecwid platforms. </p>
                                 <br></br>
-                                <p> • Performed quality audits on existing business websites. </p>
+                                <p> • Trained businesses on cybersecurity and e-commerce platforms (including platform backend demos) using training from Mastercard, Google, and Meta. </p>
+                                <br></br>
+                                <p> • Conducted comprehensive quality audits on existing business websites, writing report-style feedback to improve their websites. </p>
                                 <br></br>
                                 <p> • Wrote resource guides and documentation to address technical and program-related inquiries. </p>
                                 <br></br>
-                                <p> • Coached businesses on creating digital marketing plans, including digital advertisement and analytic solutions, utilizing training from Google and Meta. </p>
+                                <p> • Participated in website design reviews with my colleagues, supervisors, and stakeholders.</p>
                                 <br></br>
-                                <p> • Trained businesses on cybersecurity using training from MasterCard. </p>
+                                <p> • Coached businesses on creating digital marketing plans, including digital advertisement and analytic solutions, utilizing training from Google and Meta. </p>
                                 <br></br>
 
                                 <p> <b>IT & Digital Media Consultant</b></p>
                                 <p> <i>New Star Restaurant</i> & <i>Li Va's Hair Design</i> </p>
                                 <p> Pembroke, ON, (2019 - present) </p>
-                                <p> • Provided comprehensive technical support for company computer and audio systems and network connectivity, including hardware setup for internet/phone systems and software installation/upgrades. </p>
+                                <p> • Provided technical support, maintenance and troubleshooting for company Windows and macOS computer systems and wireless networks, including hardware installation/setup, software installation/administration/upgrades, and physical and Cloud data backup system setup/maintenance. </p>
                                 <br></br>
-                                <p> • Contacted vendors to diagnose and troubleshoot technical issues, such as those related to Point of Sale systems and inaccuracies on Google Maps. </p>
+                                <p> • Recommended new technologies to the businesses based on their requirements and budgetary restrictions. </p>
                                 <br></br>
-                                <p> • Created digital pricing guides used by staff members at both companies, as well as business logos, signage, and graphics. </p>
+                                <p> • Implemented IT security/cybersecurity measures, including anti-viruses and firewalls. </p>
+                                <br></br>
+                                <p> • Liaised with vendors and service providers to complete service contracts and diagnose and troubleshoot technical issues, such as those related to network disruptions. </p>
+                                <br></br>
+                                <p> • Designed digital pricing guides used by staff members at both companies, as well as business logos, signage, and graphics. </p>
                                 <br></br>
                                 <p> • Managed social media accounts, including posts and performance metrics. </p>
                                 <br></br>
@@ -324,11 +380,39 @@ const AboutScreen = () => {
                                 <p> <i>Have experience working in Linux, Windows, and macOS environments</i></p>
                                 <br></br>
 
+                                <h2> AWARDS </h2>
+                                <p> <b>Weekly Top Performer</b></p>
+                                <p> <i>Mosaic North America</i> </p>
+                                <p> February 2024 </p>
+                                <p> • Awarded Weekly Top Performer in February 2024. </p>
+                                <br></br>
+                                <p> <b>Key Collaborator</b></p>
+                                <p> <i>Mosaic North America</i> </p>
+                                <p> October 2023 </p>
+                                <p> • Awarded Key Collaborator for the month of October 2023 in recognition of my collaboration abilities and work ethic in interactions with both my colleagues and clientele. </p>
+                                <br></br>
+                                <p> <b>Dean's Honours List</b></p>
+                                <p> <i>University of Ottawa</i> </p>
+                                <p> 2019-2023 </p>
+                                <p> I consistently earned recognition on the Dean's Honours List throughout my academic career at the University of Ottawa from 2019-2023. </p>
+                                <br></br>
+                                <p> <b>uOttawa Admission Scholarship</b></p>
+                                <p> <i>University of Ottawa</i> </p>
+                                <p> September 2019 </p>
+                                <p> I received a $4000 admission scholarship from the University of Ottawa for an entrance average of 96.17%. </p>
+                                <br></br>
+                                <p> <b>Governor General's Academic Medal</b></p>
+                                <p> <i>Government of Canada</i> </p>
+                                <p> June 2019 </p>
+                                <p> I was awarded the Governor  General's Academic Medal for achieving the highest academic standing in my graduating secondary school class. </p>
+                                <br></br>
+
                                 <h2> CERTIFICATIONS </h2>
+                                <p> • Shopify Ecommerce Certification, 2024 </p>
+                                <p> • Google Analytics Certification, 2023 </p>
                                 <p> • Google Ads Display Certification, 2023 </p>
                                 <p> • Google Ads Measurement Certification, 2023 </p>
                                 <p> • Google Ads Search Certification, 2023 </p>
-                                <p> • Google Analytics Certification, 2023 </p>
                                 <p> • Hootsuite Social Media Marketing Certification, 2023 </p>
                                 <p> • Semrush Content Marketing and SEO Fundamentals with Eric Enge Certification, 2023 </p>
                                 <p> • Meltwater Academy Certification Level I: Media Monitoring with Meltwater, 2023 </p>
